@@ -7,12 +7,12 @@ completedTasks: [Task 15, Task 25, Task 27, Task 28]
 BEV: "[null, null, null, null, 4583, null, null, 614, null, null, null]"
 PHEV: "[null, null, null, null, 313, null, null, null, null, null, null]"
 HEV: "[null, null, null, null, 60431, null, null, 29060, null, null, null]"
-delegateName: "​"
+delegateName: ""
 delegateAffiliation: ""
 delegateEmail: ""
-contactName: ""
-contactAffiliation: ""
-contactEmail: ""
+contactName: "Prof. Ocktaeck Lim"
+contactAffiliation: "Ulsan University, Republic of Korea"
+contactEmail: "otlim@ulsan.ac.kr "
 publicationLink: "/publications/annualReport2020"
 
 
