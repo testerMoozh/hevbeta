@@ -19,6 +19,12 @@
                     <hr>
                     <h4 class="meta-title">time period</h4>
                     <h4 class="meta-delegate-small">{{ timePeriod }}</h4>
+                    <hr>
+                    <h4 class="meta-title">Operating Agent</h4>
+                    <h4 class="meta-delegate-small">{{ taskOperatorName }}</h4>
+                    <h4 class="meta-delegate-small">{{ taskOperatorAffiliation }}</h4>
+                    <h4 class="delegate-email">{{ taskOperatorEmail }}</h4>
+                    <hr>
                     <h4 class="meta-title">countries</h4>
                     {% for Participant  in Participants %}
                         <div class="contacts">
