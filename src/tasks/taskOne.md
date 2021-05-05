@@ -10,9 +10,9 @@ taskOperatorName: "Dr. Kate Palmer"
 taskOperatorAffiliation: " Urban Foresight, UK"
 taskOperatorEmail: "kate.palmer@urbanforesight.org"
 tags: "tasks"
-contactName: "​​​​​​Kate Palmer"
-contactAffiliation: "Urban Foresight"
-contactEmail: "kate.palmer@UrbanForesight.org"
+contactName: "Celeste Ferguson"
+contactAffiliation: "Urban Foresight, UK"
+contactEmail: "Celeste.ferguson@urbanforesight.org"
 publicationLink: "/publications/annualReport2020"
 
 
