@@ -6,9 +6,9 @@ shortDescription: "serves as a platform for information exchange among member co
 status: "Ongoing"
 timePeriod: "Task started in 1995"
 Participants: [All Member Countries]
-taskOperatorName: "Dr. Kate Palmer"
+taskOperatorName: "Celeste Ferguson"
 taskOperatorAffiliation: " Urban Foresight, UK"
-taskOperatorEmail: "kate.palmer@urbanforesight.org"
+taskOperatorEmail: "Celeste.ferguson@urbanforesight.org"
 tags: "tasks"
 contactName: "Celeste Ferguson"
 contactAffiliation: "Urban Foresight, UK"
