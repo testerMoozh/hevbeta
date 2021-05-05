@@ -1,0 +1,36 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+    <section class="specific-country">
+        <div class="container">
+            <a href="../"> < Back to tasks</a>
+            <div class="split">
+                <div class="text-block-country">
+                    <h2 class="task-page-number">{{ number }}</h2>
+                    <h1 class="task-page-title">{{ title }}</h1>
+                    {{ content | safe }}
+                </div>
+                <div class="meta-data-countries">
+                    <a class="full-view" href="{{ publicationLink }}">View Full Task Report<span></span></a>
+                    <hr>
+                    <h4 class="meta-title">status</h4>
+                    <h4 class="meta-delegate-small">{{ status }}</h4>
+                    <hr>
+                    <h4 class="meta-title">time period</h4>
+                    <h4 class="meta-delegate-small">{{ timePeriod }}</h4>
+                    <h4 class="meta-title">countries</h4>
+                    {% for Participant  in Participants %}
+                        <div class="contacts">
+                            <a class="delegate-email"> {{ Participant }} </a>
+                        </div>
+                    {% endfor %}
+                    <hr>                   
+                </div>
+            </div>
+        </div> 
+    </section>
+
+{% endblock content %}
+
+

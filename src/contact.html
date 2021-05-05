@@ -1,0 +1,72 @@
+---
+layout: "base.njk"
+pageTitle: "Contact Us"
+backgroundHeader: "Contact-Header.jpg"
+
+---
+    <section class="countries-list" style="background-image: url(/assets/images/{{backgroundHeader}})">
+        <div class="container">
+            <h1>Contact HEV TCP</h1>
+        </div>
+    </section>
+    <section class="task-list-detail">
+        <div class="container">
+            <p>The actual work on hybrid and electric vehicles is done through a variety of different Tasks that are focused on specific topics. Each topic is addressed in a Task, which is managed by an Operating Agent (OA). </p>        
+        </div> 
+    </section> 
+    <section class="contact-sections">
+        <div class="container">
+            <h1>Contacts for Countries</h1>
+            <div class="contact-grid-wrapper">
+                <div class="contacts">
+                    <h1>Chair</h1>
+                    <p>Ms. Carol Burelle</p>
+                    <p>Previously Natural Resources Canada</p>                    
+                    <p>carol.burelle@canada.ca</p>                    
+                </div>
+                <div class="contacts">
+                    <h1>Chair</h1>
+                    <p>Ms. Carol Burelle</p>
+                    <p>Previously Natural Resources Canada</p>                    
+                    <p>carol.burelle@canada.ca</p>                    
+                </div>
+                <div class="contacts">
+                    <h1>Vice-chair and country delegate for The Netherlands</h1>
+                    <p>Ms. Carol Burelle</p>
+                    <p>Previously Natural Resources Canada</p>                    
+                    <p>carol.burelle@canada.ca</p>                    
+                </div>
+                <div class="contacts">
+                    <h1>Vice-chair and country delegate for The Netherlands</h1>
+                    <p>Ms. Carol Burelle</p>
+                    <p>Previously Natural Resources Canada</p>                    
+                    <p>carol.burelle@canada.ca</p>                    
+                </div>
+                {% for country in collections.countries %}
+                <div class="contacts">
+                    <h1>{{ country.data.name }}</h1>
+                    <p>{{ country.data.contactName }}</p>
+                    <p>{{ country.data.contactAffiliation }}</p>                    
+                    <p>{{ country.data.contactEmail }}</p>
+                    <br>
+                    <p>{{ country.data.contactNameTwo }}</p>
+                    <p>{{ country.data.contactAffiliationTwo }}</p>                    
+                    <p>{{ country.data.contactEmailTwo }}</p>                     
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="container">
+            <h1>Contacts for Tasks</h1>
+            <div class="contact-grid-wrapper">
+                {% for task in collections.tasks %}
+                <div class="contacts">
+                    <h1>{{ task.data.number }}</h1>
+                    <p>{{ task.data.taskOperatorName }}</p>
+                    <p>{{ task.data.taskOperatorAffiliation }}</p>                    
+                    <p>{{ task.data.taskOperatorEmail }}</p>                    
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

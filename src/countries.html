@@ -1,0 +1,30 @@
+---
+layout: "base.njk"
+pageTitle: "Member Countries"
+backgroundHeader: "Countries-Header.jpg"
+---
+    <section class="countries-list" style="background-image: url(/assets/images/{{backgroundHeader}})">
+        <div class="container">
+            <h1> Countries</h1>
+        </div>
+    </section>
+    <section class="countries-list-detail">
+        <div class="container">
+            <p>The HEV TCP welcomes countries and organizations that will both benefit from and contribute to the sharing of information and resources on hybrid and electric vehicles.</p>
+            <div class="countries-col">
+                <ul>
+                    {% for country in collections.countries %}
+                    <li>
+                        <a href="{{ country.url }}">{{ country.data.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2>Multilateral task-force projects within the Implementing Agreement for co-operation on Hybrid and Electric Vehicle Technologies and Programmes (IA-HEV) are known as Tasks.</h2>
+            <button class="about-ctn" href="tasks">View All Tasks</button>
+        </div>
+    </section>

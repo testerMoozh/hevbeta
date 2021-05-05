@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The HEV TCP, with a membership of 18 countries, collaborates on shared projects (Tasks) to better understand and address technical and non-technical challenges, and provide guidance to policy makers.">
+    <title>{{ pageTitle }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+
+</head>
+<body>
+    <div class="top-navbar">
+        <div class="container">
+            <p>Technology Collaboration Programme</p>
+            <h4>by<span>iea</span></h4>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="container">
+            <a href="/"><img src="/assets/images/dark-logo.png" alt="Open the homepage" class="img-fluid"></a>
+            <div class="mobile-icon" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div> 
+            <nav id="mobile-menu">    
+                <a class="close-button" id="close-button" onclick="closeMenue()">&#10006;</a>
+                <ul class="primary-nav">
+                    <li><a href="/countries">Countries</a></li>
+                    <li><a href="/tasks">Tasks</a></li>
+                    <li><a href="/latest">Latest</a></li>
+                    <li><a href="/publications">Publications</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a class="members-cta" href="#">Members</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    {% block content %}
+      {{ content | safe }}
+    {% endblock content %}
+
+    <section class="bottom-nav">
+        <div class="container">
+            <div class="left-bottom-col">
+                <img src="/assets/images/dark-logo.png">
+                <p> &#169; HEV-TCP 2020</p>
+            </div>
+            <div class="middle-bottom-col">
+                
+                <ul class="bottom-list">
+                    <li>
+                        <a href="/tasks">Tasks</a>
+                    </li>
+                    <li>
+                        <a href="/latest">Latest</a>
+                    </li>
+                    <li>
+                        <a href="/countries" >Countries</a>
+                    </li>
+                    <li>
+                        <a href="/publications">Publications</a>
+                    </li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a>Members</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-bottom-menu">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+            </div>
+        </div>
+    </section>
+    <script>
+        function myFunction(x) {
+            document.getElementById('mobile-menu').style.display= "block";
+        }
+        function closeMenue() {
+            document.getElementById('mobile-menu').style.display= "none";
+        }
+    </script>
+</body>
+</html>

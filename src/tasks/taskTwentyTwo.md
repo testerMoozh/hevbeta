@@ -1,0 +1,27 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 22"
+title: "E-Mobility Business Models"
+status: "closed"
+timePeriod: "Task started in 2011, completed 2014"
+Participants: [ Germany, United Kingdom, United States ]
+shortDescription: "Task 22 recognises that failure to develop these products and services could delay the growth in markets for EVs and limit adoption to niche applications. "
+taskOperatorName: "Mr. David Beeton "
+taskOperatorAffiliation: "Urban Foresight "
+taskOperatorEmail: "david.beeton@urbanforesight.org "
+contactName: ""
+contactAffiliation: ""
+contactEmail: ""
+publicationLink: "/publications/annualReport2020"
+
+---
+
+## Objective of Task
+Task 22 is collating expertise in two key areas. The first is related to electric mobility products and services to optimize the total cost of ownership and operation. This encompasses measures to reduce purchase prices, address concerns over battery degradation, support residual values, and offer greater certainty on costs. It also relates to alternative models of ownership, financing and leasing, as well as the realisation of new revenue streams through a third party or ancillary services. The second area is ways to enhance user experiences, encompassing developments which make operation of EVs more convenient, desirable, and rewarding. This may relate to enhanced functionality for driving and recharging, supportive policy frameworks, incentives, solutions for fleets, and flexible mobility services such as car sharing to meet the needs of both individuals and businesses. Task 22 recognises that failure to develop these products and services could delay the growth in markets for EVs and limit adoption to niche applications. 
+
+## working method
+During spring 2013, Task 22 members invited multi-sectoral experts from the world over to write articles and provide expert analysis and commentary, lessons learned, case studies, and concepts for publication. Topics could include policy perspectives, vehicle provision, infrastructure systems, and energy systems. Task participants set up a global editorial board, recruited experts to submit text, and plan to publish the findings in a widely distributed report. 
+
+## Results
+15 papers were selected for publication in a book which was released in early 2015 as part of Springer’s Lecture Notes in Mobility series. It presents commentary and case studies from experts in eleven different countries from across five continents.  

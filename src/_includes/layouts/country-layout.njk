@@ -1,0 +1,93 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <section class="specific-country">
+        <div class="container">
+            <a href="../"> < Back to countries</a>
+            <div class="split">
+                <div class="text-block-country">
+                    <h1>{{name}}</h1>
+                    <h4>EV ADOPTION BY YEAR</h4>
+                    <div id='myDiv'></div>
+                    {{ content | safe}}
+                </div>
+                <div class="meta-data-countries">
+                    <a href="{{ publicationLink }}">View Full Country Report<span></span></a>
+                    <hr>
+                    <h4 class="meta-title">DELEGATE</h4>
+                    <h4 class="meta-delegate-small">{{ delegateName }}</h4>
+                    <h4 class="meta-delegate-small">{{ delegateAffiliation }}</h4>
+                    <h4 class="delegate-email">{{delegateEmail}}</h4>
+                    <br>
+                    <h4 class="meta-delegate-small">{{ contactNameTwo }}</h4>
+                    <h4 class="meta-delegate-small">{{ contactAffiliationTwo }}</h4>
+                    <h4 class="delegate-email">{{contactEmailTwo}}</h4>
+                    <hr>
+                    <h4 class="meta-title">ONGOING TASKS</h4>
+                    {% for onGoing  in onGoings %}
+                        <div class="contacts">
+                            <h4 class="meta-task-country-list">{{ onGoing }}</h4>  
+                        </div>
+                    {% endfor %}
+                    <hr>
+                    <h4 class="meta-title">COMPLETED TASKS</h4>
+                    {% for completedTask  in completedTasks %}
+                        <div class="contacts">
+                            <h4 class="meta-task-country-list">{{ completedTask }}</h4>  
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="countries-list-detail" style="background-color: rgb(238, 238, 238);">
+        <div class="container">
+            <h1 class="explore-more-title">Explore More</h1>
+            <div class="countries-col">
+                <ul>
+                    {% for country in collections.countries %}
+                    <li>
+                        <a href="{{ country.url }}">{{ country.data.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        var trace1 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: {{ BEV }},
+        name: 'BEV',
+        type: 'bar'
+        };
+
+        var trace2 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: {{ PHEV }},
+        name: 'PHEV',
+        type: 'bar'
+        };
+
+        var trace3 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: {{ HEV }},
+        name: 'HEV',
+        type: 'bar'
+        };
+
+        var data = [trace1, trace2, trace3];
+
+        var layout = {
+            xaxis: {
+                tickangle: -45
+            },
+            barmode: 'group'
+            };
+
+            Plotly.newPlot('myDiv', data, layout);
+
+    </script>
+{% endblock content %}
+
+

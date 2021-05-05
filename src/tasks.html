@@ -1,0 +1,70 @@
+---
+layout: "base.njk"
+pageTitle: "List of Tasks"
+backgroundHeader: "Task-Header.jpg"
+---
+    <section class="countries-list" style="background-image: url(/assets/images/{{backgroundHeader}})">
+        <div class="container">
+            <h1> Tasks</h1>
+        </div>
+    </section>
+    <section class="task-list-detail">
+        <div class="container">
+            <p>The actual work on hybrid and electric vehicles is done through a variety of different Tasks that are focused on specific topics. Each topic is addressed in a Task, which is managed by an Operating Agent (OA). </p>
+        </div> 
+    </section>   
+    <section class="task-list-body">
+        <div class="container">
+            <div class="split">
+                <div class="meta-data-countries">
+                    <form class="tasks-specific-search">
+                        <input type="text" placeholder="SEARCH TASKS" name="search-task" id="search-task">
+                        <div class="test">
+                            <p class="form-label-task">FILTER BY STATUS:</p>
+                            <div class="task-bullet">
+                                <input type="radio" id="selected-completed"
+                                name="selected-completed" value="completed">
+                                <label for="selected-completed">Ongoing</label>
+                            
+                                <input type="radio" id="selected-ongoing"
+                                name="selected-ongoing" value="ongoing">
+                                <label for="selected-ongoing">Completed</label>
+                            </div>
+                        </div>
+                        <!-- <div>
+                          <button type="submit">Submit</button>
+                        </div> -->
+                      </form>
+                </div>
+                <div class="text-block-country">
+
+                    {% for task in collections.tasks %}
+                    <div class="task-meta">
+                        <h2 class="task-title"> {{ task.data.number }} {{ task.data.title }}</h2>
+                        <h2 class="task-short-desc"> {{ task.data.shortDescription }}</h2>
+                        <p class="task-status-meta"> STATUS: {{ task.data.status }}</p>
+                        <a class="task-read-more" href="{{ task.url }}">Read More</a>
+                        <hr>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="about" style="background-image: url('../assets/images/Tasks-Box.jpg');">
+        <div class="container">
+            <h2>Member countries subheader explainer lorem ipsum dolor sit amet</h2>
+            <button class="about-ctn" href="countries">VIEW ALL COUNTRIES</button>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="container">
+            <h2>Subscribe</h2>
+            <p>Stay up to date with all the latest news and events</p>
+            <form action="">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email Address">
+                <input type="submit" class="send-message-cta" value="Submit">
+            </form>
+        </div>
+    </section>

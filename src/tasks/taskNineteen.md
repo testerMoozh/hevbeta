@@ -1,0 +1,80 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 19"
+title: "Life Cycle Assessment of EVs "
+status: "closed"
+timePeriod: "Task started in December 2012, completed December 2014"
+Participants:  [Austria, Germany, Switzerland, United States]
+shortDescription: "The purpose of this task was to exchange information among cities around the globe on how to reduce air pollution from road traffic."
+taskOperatorName: "Mr. Gerfried Jungmeier  "
+taskOperatorAffiliation: "Joanneum Research Forschungsgesellschaft mbH "
+taskOperatorEmail: "gerfried.jungmeier@joanneum.at "
+contactName: ""
+contactAffiliation: ""
+contactEmail: ""
+publicationLink: "/publications/annualReport2020"
+
+
+---
+
+## Objective of Task
+The main goals of this Task were to: 
+
+1. Provide policy and decision makers with FACTS on environmental issues of EVs, 
+2. Improve “END OF LIFE MANAGEMENT” by promoting best available technologies and practices, 
+3. Identify DESIGN for recyclability and minimal resource consumption, 
+4. Establish a “RESEARCH PLATFORM for life cycle assessment including end of life management for electric vehicles”. 
+
+The Task was a networking activity, which means that the experiences from the national projects were fed into the LCA platform and discussed on an international level. The main topics addressed were: 
+
+1. LCA methodology, e.g., system boundaries, and co-products handling, 
+2. frequently asked questions, 
+3. overview of international LCA studies, 
+4. parameters influencing the environmental performance of electric vehicles, 
+5. LCA aspects of battery and electric vehicle production, 
+6. end of vehicle life management, 
+7. LCA aspects of electricity production, distribution and battery charging, 
+8. R&D demand. 
+
+The activities in Task 19 focused on LCA aspects of Battery Electric Vehicles (BEV) and Plug-in Hybrid Electric Vehicle (PHEV) for passenger transportation services in comparison to gasoline, diesel and natural gas vehicles using current and future technologies.
+
+## working method
+The most important networking activity in this LCA platform was the organization of the five workshops in different member countries. – the aim was to involve the different stakeholders in the EV value chain. The organization of workshops with participation from industry, research organizations, and technology policy experts provides an international basis for the exchange of information on relevant activities.  
+
+These 5 workshops were:  
+
+1. The 1st workshop was held on 7 December 2012 in Braunschweig, Germany, and was entitled “LCA Methodology and Case Studies of Electric Vehicles.” The workshop was held to coincide with the second stakeholder workshop of the European Project “eLCAr” (see [www.elcar-project.eu](www.elcar-project.eu)).  
+2. The 2nd workshop on “LCA of Vehicle and Battery Production” took place in Chicago, Illinois, United States, on 26 April 2013.  
+3. The 3rd Task 19 expert workshop on “Recovery of Critical Metals from Vehicles with an Electric Drivetrain” was held in Davos, Switzerland on 9-10 October 2013. The workshop was co-located with the World Resources Forum 2013 (WRF 2013).  
+4. The 4th workshop “LCA Aspects of Electricity Production, Distribution and Charging Infrastructure for Electric Vehicles” took place in Barcelona, Spain on 15-16 October 2014.  
+5. The 5th workshop “LCA of Electric Vehicles – Current Status and Future Perspectives” took place in Vienna, Austria on 11 November 2015 and was co-located with the A3PS Conference “Eco-Mobility 2025plus” (www.a3ps.at).     
+
+## Results
+Based on the LCA activities in the 18 member countries the Task 19 estimated the LCA based environmental effects of the worldwide electric vehicle fleet in 2014 in 33 countries. In a LCA of these vehicles using the different national framework conditions the environmental effects are estimated by assessing the possible ranges of environmental effects. Based on the emission inventory of CO2, CH4, N2O, CO, NMVOC, SO2, NOx, and PM the potential effects on greenhouse effect, acidification, ozone formation, and particles are estimated. The reference case is the substitution of modern conventional ICE vehicles (of which 50 % are gasoline and 50 % diesel). The environmental effects of the electricity for the EVs are estimated on the current national electricity production in the 33 considered countries including grid transmission and distribution, and vehicle charging infrastructure. Additionally, for some selected countries, a scenario with all additional installed renewable electricity from PV and wind is dedicated for use by the EVs.  
+
+The details (e.g. data, assumption, methodology) of the following results were published in two conference papers:  
+
+1. Jungmeier G., Dunn J., Elgowainy A., Gaines L., Ehrenberger S., Özdemirc E. D., Althaus H. J., Widmer R. (2014): Life cycle assessment of electric vehicles – Key issues of Task 19 of the International Energy Agency (IEA) on Hybrid and Electric Vehicles (HEV), Conference Proceedings, TRA 2014 – 5th Conference Transport Solutions – From Research to Deployment, Paris 14 - 17 April 2014.  
+2. Jungmeier G., Dunn J., Elgowainy A., Ehrenberger S., Widmer R. (2015): Estimated Environmental Effects of the Worldwide Electric Vehicle Fleet – A Life Cycle Assessment in Task 19 of the International Energy Agency (IEA) on Hybrid and Electric Vehicles (HEV), Conference Proceedings, EEVC 2015 – European Battery, Hybrid and Fuel Cell Electric Vehicle Congress, Brussels, Belgium, 2 - 4 December 2015. 
+
+The main conclusions are:  
+
+1. Environmental Assessment of EVs has been conducted based on Life Cycle Assessment compared to conventional vehicles.  
+2. About 700,000 EVs worldwide are on the road (end of 2014): main countries are US, JP, CN, F, DE, NO.  
+3. Estimation of average environmental effects substituting diesel/gasoline shows: 
+    1. GHG-reduction:			- 20% 
+    2. PM < 10 reduction:		- 60% 
+    3. Acidification increase:		+ 40% 
+    4. Ozone reduction:		- 30% 
+4. Broad estimated ranges are mainly due to variation in:  
+    1. Emissions of national electricity production, 
+    2. Electricity consumption of EVs at charging point, 
+    3. Fuel consumption of substituted conventional ICEs, 
+    4. Data availability, uncertainty, and consistency, e.g., PM. 
+5. Additional renewable electricity with adequate charging maximizes environmental benefits.  
+6. Loading strategies are essential for further significant reductions.  
+
+The results show that the environmental effects depend on the national framework condition, e.g., national electricity generation. In most of the countries, a significant reduction of these LCA based emissions of up to 90 % is reached. So there is scientific evidence that under appropriate framework conditions, electric vehicles can substantially contribute to a sustainable transportation sector in the future. 
+
+ 

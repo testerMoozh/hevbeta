@@ -1,0 +1,74 @@
+---
+layout: "base.njk"
+pageTitle: "latest"
+backgroundHeader: "Latest-Header.jpg"
+---
+    <section class="countries-list" style="background-image: url(/assets/images/{{backgroundHeader}})">
+        <div class="container">
+            <h1> Latest</h1>
+        </div>
+    </section>
+    <section class="task-list-detail">
+        <div class="container">
+            <p>The HEV TCP publishes two newsletters per year. Brief news articles on EVs, technology developments, and policies are complemented by links to related publications and events. </p>
+        </div> 
+    </section>   
+    <section class="task-list-body">
+        <div class="container">
+            <div class="split">
+                <div class="meta-data-countries">
+                    <form class="tasks-specific-search">
+                        <input type="text" placeholder="SEARCH LATEST" name="search-task" id="search-task">
+                        <div class="test">
+                            <p class="form-label-task">Search Latest</p>
+                            <div class="task-bullet">
+                                <input type="radio" id="Task-Update"
+                                name="Task-Update" value="completed">
+                                <label for="Task-Update">Task Update</label>
+                            
+                                <input type="radio" id="events"
+                                name="events" value="ongoing">
+                                <label for="events">Events</label>
+
+                                <input type="radio" id="news"
+                                name="news" value="ongoing">
+                                <label for="news">News</label>
+
+                                <input type="radio" id="all"
+                                name="all" value="ongoing">
+                                <label for="all">All</label>
+                            </div>
+                        </div>
+                        <!-- <div>
+                          <button type="submit">Submit</button>
+                        </div> -->
+                      </form>
+                </div>
+                <div class="text-block-country">
+                    <div class="block-container-content">
+                        <div class="block-left">
+                            <img src="../assets/images/latest.jpg" alt="">
+                            <div class="task-meta">
+                                <h2 class="task-title"> News headline here</h2>
+                                <p class="task-status-meta"> Task update <span>march 2021</span></p>
+                                <h2 class="news-short-desc"> The HEV TCP welcomes countries and organizations that will both benefit from and contribute to the sharing of information and resources on hybrid and electric vehicles.</h2>
+                                <a class="news-read-more" href="">Read More ></a>
+                            </div>
+                        </div>
+                        <hr class="divider">
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="subscribe">
+        <div class="container">
+            <h2>Subscribe</h2>
+            <p>Stay up to date with all the latest news and events</p>
+            <form action="">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email Address">
+                <input type="submit" class="send-message-cta" value="Submit">
+            </form>
+        </div>
+    </section>

@@ -1,0 +1,39 @@
+---
+layout: "layouts/country-layout.njk"
+
+---
+
+    <script>
+        var trace1 = {
+        x: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019', '2020'],
+        y: [null, null, null, null, null, 146719, 257000, 468000, 788000, 834000, 1000000],
+        name: 'BEV',
+        type: 'bar'
+        };
+
+        var trace2 = {
+        x: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019', '2020'],
+        y: [null, null, null, null, null, 60663, 79000, 111000, 265000, 226000, 247000],
+        name: 'PHEV',
+        type: 'bar'
+        };
+
+        var trace3 = {
+        x: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019', '2020'],
+        y: [3734, 5596, 23697, 34709, 32120, 38803, 107080, 182549, 260380, 381588, 523371],
+        name: 'HEV',
+        type: 'bar'
+        };
+
+        var data = [trace1, trace2, trace3];
+
+        var layout = {
+            font:{
+                size: 10
+            },
+            barmode: 'group'
+            };
+
+            Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
+
+    </script>

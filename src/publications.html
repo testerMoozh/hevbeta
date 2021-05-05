@@ -1,0 +1,61 @@
+---
+layout: "base.njk"
+pageTitle: "Publications"
+backgroundHeader: "Publications-Header.jpg"
+
+---
+    <script src="//npmcdn.com/pdfjs-dist/build/pdf.js"></script>
+    <section class="countries-list" style="background-image: url(/assets/images/{{backgroundHeader}})">
+        <div class="container">
+            <h1>Publications</h1>
+        </div>
+    </section>
+    <section class="task-list-detail">
+        <div class="container">
+            <p>The HEV TCP publish an annual report in the Spring each year, summarising country developments and Task updates.</p>
+        </div> 
+    </section>   
+    <section class="task-list-body">
+        <div class="container">
+            <div class="split">
+                <div class="meta-data-countries">
+                    <form class="tasks-specific-search">
+                        <input type="text" placeholder="SEARCH PUBLICATIONS" name="search-task" id="search-task">
+                        <div class="test">
+                            <p class="form-label-task">FILTERS:</p>
+                            <div class="task-bullet">
+                                <input type="radio" id="selected-completed"
+                                name="selected-completed" value="completed">
+                                <label for="selected-completed">Annual Reports</label>
+                            
+                                <input type="radio" id="selected-ongoing"
+                                name="selected-ongoing" value="ongoing">
+                                <label for="selected-ongoing">Misc.</label>
+                                
+                                <input type="radio" id="selected-ongoing"
+                                name="selected-ongoing" value="ongoing">
+                                <label for="selected-ongoing">All</label>
+                            </div>
+                        </div>
+                        <!-- <div>
+                          <button type="submit">Submit</button>
+                        </div> -->
+                      </form>
+                </div>
+                <div class="main-content-publication">
+                        {% for publication in collections.publications %}
+                        <ul>
+                            <li>
+                                <div class="image-container">
+                                <img class="publication-list" src="/assets/images/thumbnails/{{ publication.data.thumbnailSrc }}" alt="">
+                                </div>
+                                <a href="{{ publication.url }}" class="publication-link">{{ publication.data.title }}</a>
+                            
+                            </li>
+                        </ul>
+                        {% endfor %}
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>

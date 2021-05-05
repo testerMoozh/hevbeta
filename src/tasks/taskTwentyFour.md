@@ -1,0 +1,56 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 24"
+title: "Economic Impact Assessment of E-Mobility"
+status: "closed"
+timePeriod: "Task started in 2014, completed December 2016"
+Participants: [ Austria, Belgium, Denmark, France, Germany, the Netherlands, Switzerland, USA ]
+shortDescription: "The objective of the Task is to get a better view on the value chain of electric mobility and the economic potential in the local e-mobility sector in every participating country in Task 24."
+taskOperatorName: "Ms. Sonja Munnix"
+taskOperatorAffiliation: "Netherlands Enterprise Agency "
+taskOperatorEmail: "sonja.munnix@rvo.nl "
+contactName: "Mr. Carlo Mol "
+contactAffiliation: "VITO – Vlaamse Instelling voor Technologisch Onderzoek "
+contactEmail: "carlo.mol@vito.be"
+publicationLink: "/publications/Task24_Final_Report"
+
+
+---
+
+## Objective of Task
+The introduction of electric mobility can create a lot of new economic opportunities. Governments are anxious to stimulate economic growth in their own region, but to be able to develop good supportive policies and to assess their impact it is necessary to have a good view on the local e-mobility sector. How is the value chain for e-mobility defined? Which actors are active in which part of the value chain? What is the situation today on production volume, turnover, employment, export volume, innovations/patents etc., and in which part of the value chain can we expect further growth? The answer is very region specific, because it depends on the specific activities and competencies of the local stakeholders and their ambition to become a market player in electric mobility. A SWOT analysis per region on product/service/market combinations can give a better insight in the local situation.  
+
+The objective of the Task is to get a better view on the value chain of electric mobility and the economic potential in the local e-mobility sector in every participating country in Task 24. This will be done by performing a SWOT analysis and a baseline measurement of some important indicators like turnover/production volume, employment, export volume, innovations/patents, etc. 
+
+Electric mobility is not only about vehicles, but that it requires a whole “ecosystem” approach. Beside the vehicles, we need charging infrastructure that is well integrated in the electricity network (smart grids, financing services, etc.). Electric vehicles can be integrated in new mobility concepts that are multi-modal and based on sharing concepts. Consequently, we have value chains in different sectors: the mobility sector, the energy sector, and the vehicle sector itself.  
+
+Task 24 mainly focused on electric passenger cars, but also reported some data on electric bicycles, scooters, trucks buses, and even boats if that was important in a specific country. Every sector has its own economic opportunities. 
+
+## working method
+The work of Task 24 was executed mainly by mail and phone conferences to reduce travel costs. Physical meetings were organized in conjunction with the HEV TCP ExCo meetings.  
+
+The project consisted of three subtasks:  
+
+1. Development of a common methodology for economic impact assessments, 
+2. In each participating country, collection of data on the agreed indicators, 
+3. Analyses of results summarized in a final report. 
+
+## Results
+We initially intended to benchmark the results of the individual country reports. Although similar trends were identified in the participating countries, actual benchmarking proved to be impossible. It is difficult to compare the various data on the industry and the value of the e-mobility sector because of the different backgrounds from which data were collected, the different methods used to collect and analyse the data, and the timescale for which data were collected or available or estimates were made.  
+
+What the project made clear though, is that employment growth can be substantial when the local EV market really takes off. For example, the US country report shows that employment associated with PEV deployment rises from roughly 55,000 in 2015 to 110,000 in the AEO Scenario and 600,000 in the ZEV Scenario, both for 2030. In the German region of Baden-Wuerttemberg, the realistic market development scenario indicates 18,000 additional jobs in 2025 compared to 2013. In the Netherlands, a study estimated a mean potential of 10,000 jobs in e-mobility in 2020 (compared to 3,200 jobs in 2014).  
+
+The economic impact analysis needs to take into account both the gains in turnover and jobs by e-mobility and related businesses, as well as the loss of turnover and jobs in the combustion engine sectors. Most country reports do not yet address this issue. 
+
+The most important key messages are: 
+
+1. Individual investment decisions of OEMs significantly influence the whole system 
+2. Spill-over effects can be seen in other sectors like the energy sector 
+3. Employment growth can be substantial when the local EV market really takes off 
+4. Economic impact of e-mobility can be considerable 
+5. Ignoring e-mobility can lead to significant value added employment losses for local industry 
+6. High interests of policy makers 
+7. It takes time for an incentive policy to take effect and directly impact the number of jobs. 
+
+ 
