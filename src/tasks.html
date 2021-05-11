@@ -52,13 +52,13 @@ pageTitle: "About"
 		<section class="module">	
 			<div class="container">
 				<div class="task-col">
-					<ul id="tast-title">
+					<ul id="task-lists">
 						{% for task in collections.tasks %}
 						<li>
 						<div class="menu {{task.data.status}}">
 							<div class="row">
 								<div>
-									<a class="task-title">{{ task.data.number }} {{ task.data.title }}</a>
+									<a class="task-title"> Task {{ task.data.number }} {{ task.data.title }}</a>
 									<div class="task-short-desc">{{ task.data.shortDescription }}</div>
 									<h4 class="task-status-meta {{task.data.status}}" >Status: {{ task.data.status }}</h4>
 									<a class="task-read-more" style="margin-left: 46%; color: var(--sixth-color);" href="{{ task.url }}">read more</a>

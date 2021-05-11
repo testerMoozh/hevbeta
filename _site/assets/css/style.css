@@ -2029,8 +2029,13 @@ Post
   font-size: 1.3em;
 }
 
-.post .caption {
+.post .title {
+  text-align: left;
+}
+
+.post h3 {
   text-align: center;
+  font-size: 1em;
   text-transform: italic;
 }
 
@@ -2044,10 +2049,22 @@ Post
   font-size: 1.3em;
 }
 
+.post ol li li {
+  color: var(--primary-color);
+  line-height: 1.3em;
+  font-size: 1.1em;
+}
+
 .post ul li {
   color: var(--primary-color);
   line-height: 1.7em;
   font-size: 1.3em;
+}
+
+.post ul li ul li {
+  color: var(--primary-color);
+  line-height: 1.3em;
+  font-size: 1.1em;
 }
 
 .read {

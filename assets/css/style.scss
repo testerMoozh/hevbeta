@@ -2073,8 +2073,12 @@ Post
 		line-height: 1.7em;
 		font-size: 1.3em;
     }
-	.caption{
+	.title{
+		text-align: left;
+	}
+	h3{
 		text-align: center;
+		font-size: 1em;
 		text-transform: italic;
 	}
 	img{
@@ -2087,6 +2091,11 @@ Post
 		color: var(--primary-color);
 		line-height: 1.7em;
 		font-size: 1.3em;
+		li{
+				color: var(--primary-color);
+				line-height: 1.3em;
+				font-size: 1.1em;
+		}
 		}
 	}
 	ul{
@@ -2094,6 +2103,13 @@ Post
 		color: var(--primary-color);
 		line-height: 1.7em;
 		font-size: 1.3em;
+		ul{
+			li{
+			color: var(--primary-color);
+			line-height: 1.3em;
+			font-size: 1.1em;
+			}
+		}
 	}
 	}
 }
