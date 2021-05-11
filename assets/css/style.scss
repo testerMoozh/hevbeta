@@ -228,8 +228,8 @@ a,
 }
 
 .btn.btn-w {
-	background: var(--sixth-color);
-	color: white;
+	background: rgba(255, 255, 255, .3);
+	color: var(--p);
 }
 
 .btn.btn-w:hover,
@@ -1030,7 +1030,6 @@ Navbar
 }
 
 .navbar-custom .navbar-brand {
-	letter-spacing: 4px;
 	font-weight: 400;
 	font-size: 22px;
 	color: #fff;
@@ -1052,7 +1051,6 @@ Navbar
 .navbar-custom .dropdown-menu > li > a {
 	border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
 	padding: 11px 15px;
-	letter-spacing: 2px;
 	color: #999;
 }
 
@@ -1872,11 +1870,14 @@ Callout
 
 .callout-text {
 	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 3.5em;
+	font-family: 'Archivo Black';
+
 }
 
 .callout-title {
-	font-weight: 400;
-	font-size: 16px;
+
 	color: #fff;
 	margin: 0;
 }
@@ -2002,8 +2003,9 @@ Post
 	}
 	.meta-title{
 		color: var(--third-color);
-		font-size: 1.1em;
+		font-size: 1.25em;
 		font-weight: 300;
+		text-transform: uppercase;
 		margin-bottom: .5em;
 		
 	}
@@ -2015,14 +2017,14 @@ Post
 		margin: 0.2em 0em 0.2em 0em;
 		color: var(--primary-color);
 		font-weight: 400;
-		font-size: 1.1em;
+		font-size: 1.4em;
 	}
 	.delegate-email{
 		margin: 0.2em 0em 1em 0em;
 		color: var(--sixth-color);
 		font-weight: 400;
 		margin-top: .3em;
-		font-size: 1.1em;
+		font-size: 1.3em;
 	}
 	.meta-task-country-list{
 		margin: 0.2em 0em 0.2em 0em;
@@ -2034,7 +2036,8 @@ Post
 		line-height: 2em;
 			
 		a{
-			font-size: 1em;
+			font-size: 1.4em;
+			color: var(--sixth-color);
 
 		}
 	}
@@ -2044,6 +2047,7 @@ Post
 
 .post {
 	margin: 0 0 80px;
+	font-family: 'Roboto';
 	h2{
         font-size: 1.8em;
         text-transform: uppercase;
@@ -2057,7 +2061,7 @@ Post
 		margin-bottom: 0;
     }
 	h5{
-        font-size: 1em;
+        font-size: 1.3em;
         text-decoration: underline;
         color: var(--primary-color);
         
@@ -2581,6 +2585,9 @@ Responsive Media Querries
 
 @media (min-width: 768px) {
 
+	.flexible{
+		display: block;
+	}
 	.navbar-transparent {
 		/*background: transparent;*/
 		padding-bottom: 15px;
@@ -2629,7 +2636,12 @@ Responsive Media Querries
 @media (max-width: 1200px) {
 
 	/* Features */
-
+	.flexible{
+		display: flex;
+		.callout-btn-box{
+			margin-left: 1em;
+		}
+	}
 	.alt-features-item {
 		margin: 20px 0 0;
 	}
@@ -2670,6 +2682,7 @@ Responsive Media Querries
 }
 
 @media (max-width: 991px) {
+	
 
 	/* Navbar */
 

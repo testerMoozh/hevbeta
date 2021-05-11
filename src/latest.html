@@ -20,20 +20,20 @@ pageTitle: "Latest"
 		</section>
 		<!-- Header section end -->
 		<!-- Latest blog posts start -->
-		<!-- <section id="news" class="module">
+   		<section id="news" class="module">
 			<div class="container">
-
-				<div class="row multi-columns-row post-columns"> -->
+				<div class="row multi-columns-row post-columns">
+					{% for newsletter in collections.newsletters %} 
 
 					<!-- Post item start -->
 					<div class="col-sm-6 col-md-4 col-lg-4">
 
 						<div class="post mb-20">
 							<div class="post-thumbnail">
-								<a href="blog-single-left.html"><img src="/assets/images/post-1.jpg" alt=""></a>
+								<a href="{{ newsletter.url }}"><img src="/assets/images/thumbnails/{{newsletter.thumbnailSrc}}" alt=""></a>
 							</div>
 							<div class="post-header font-alt">
-								<h2 class="post-title"><a href="blog-single-left.html">December 2020 Newsletter</a></h2>
+								<h2 class="post-title"><a href="{{ newsletter.url }}">December 2020 Newsletter</a></h2>
 								<div class="post-meta">
 									 <a href="#">Published</a> | December 2020
 								</div>
@@ -42,11 +42,14 @@ pageTitle: "Latest"
 								<p>As 2020 comes to a close, this newsletter forms a round-up of some of the highlights from our member countries and ongoing tasks.</p>
 							</div>
 							<div class="post-more">
-								<a href="blog-single-right.html" class="more-link">Read more</a>
+								<a href="{{ newsletter.url }}" class="more-link">Read more</a>
 							</div>
 						</div>
 
 					</div>
+
+					{% endfor %}
+
 					<!-- Post item end -->
 
 					<!-- Post item start -->

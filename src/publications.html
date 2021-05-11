@@ -59,19 +59,17 @@ pageTitle: "Publications"
                     <ul id="publications">
 						{% for publication in collections.publications %} 
 							<li style="list-style-type: none; position: relative;">       
-							<a class="sort" href="{{ publication.id }}"></a>
+							<a class="sort" href="{{ publication.data.id }}"></a>
  
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item">
+								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
 										<img src="/assets/images/thumbnails/{{publication.data.thumbnailSrc}}" alt="Open the Report">
-										<div class="shop-item-detail">
-											<a class="btn btn-round btn-b" href="{{ publication.url }}"> View Publication</a>
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="btn btn-round btn-b" style="margin-left: 0;" href="{{ publication.url }}"> {{ publication.data.title }}</a>
 										</div>
 									</div>
-									<a class="shop-item-title font-serif searching" style="margin-top: 3em;" href="{{ publication.url }}">{{ publication.data.title }}</a>
-
 								</div>
 							</div>
 							<!-- Shop item end -->
@@ -94,7 +92,7 @@ pageTitle: "Publications"
 		while (switching) {
 			// start by saying: no switching is done:
 			switching = false;
-			b = list.getElementsByTagName("sort");
+			b = list.getElementsByClassName("sort");
 			// Loop through all list-items:
 			for (i = 0; i < (b.length - 1); i++) {
 			// start by saying there should be no switching:
