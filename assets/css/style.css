@@ -835,7 +835,7 @@ Preloader
 Typography
 ------------------------------------------------------------------- */
 a {
-  color: #111;
+  color: var(--sixth-color);
 }
 
 a:hover, a:focus {

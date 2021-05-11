@@ -31,10 +31,10 @@ The new energy perspectives 2050+ present scenarios on how Switzerland’s Energ
 #### New policies, legislation and incentives 
 On September 25th 2020, the Swiss parliament passed the CO2 Act. Some of the most important measures concerning the transport sector are summarised as follows: 
 
-1. Tightening of CO2 emission values for the average of new vehicles including heavyweight trucks, in line with the EU. 
-2. Increase in the compensation obligation for fuel importers. 
-3. Elimination of mineral oil tax reimbursements for public transport, after 2025 for urban transport and after 2030 for regional transport. 
-4. New climate fund, to support among many other things charging infrastructure in multi-party buildings. 
+- Tightening of CO2 emission values for the average of new vehicles including heavyweight trucks, in line with the EU. 
+- Increase in the compensation obligation for fuel importers. 
+- Elimination of mineral oil tax reimbursements for public transport, after 2025 for urban transport and after 2030 for regional transport. 
+- New climate fund, to support among many other things charging infrastructure in multi-party buildings. 
 
 Electric vehicles are exempt from the circulation tax in most cantons. In addition, some cantons grant purchase premiums for electric vehicles and some funding towards establishing charging infrastructure. The administration is also working on the removal of obstacles and regulatory hurdles in the planning, installation and operation of charging stations. 
 

@@ -22,7 +22,7 @@ The effects of the Covid-19 pandemic on society and the global economy are unpre
 
 #### New policies, legislation, incentives, funding, research, and taxation 
 In Italy, the “Budget” Law 2019 introduced a “bonus-malus” system for purchasing new vehicles. From 1 March 2019 to 31 December 2021: 
-1. Anyone who purchases (even with a lease) and registers a new passenger car1 in Italy with CO2 emissions below a given threshold value, will be provided with a bonus (in the form of a discount) depending on the amount of CO2 emissions per km.  
+- Anyone who purchases (even with a lease) and registers a new passenger car1 in Italy with CO2 emissions below a given threshold value, will be provided with a bonus (in the form of a discount) depending on the amount of CO2 emissions per km.  
 
 
 ##### Direct incentives for purchasing new passenger cars 
@@ -37,9 +37,9 @@ Indirect incentives are mainly issued at a regional level. The reduction of the 
 According to the “Balance” Law 2019, taxpayers are granted a tax deduction (to be distributed in 10 years) for costs incurred from 1 March 2019 to 31 December 2021 regarding the purchase and installation of EVs charging infrastructures. Initial costs for demanding additional power up to 7 kW are also included. This tax deduction is in the amount of 50 % of the costs on a total amount not exceeding 3,000 EUR. The charging infrastructures must have one or more not publicly accessible standard2 charging points. 
 ## Outlook   
 On October 2020, the Italian Polytechnic Institute in Milano published the “Smart Mobility Report” that, beside reporting a detailed analysis of technologies, regulations and current car market, presented forecast results from 3 market scenarios that can be summarized as follow: 
-1. “base” scenario: this scenario foresees an adoption of electric vehicles that does not go beyond 3.5 million vehicles in 2030; 
-2. “moderate” scenario: in this scenario, electric vehicles reach 5.5 million in 2030, over 14 % of the fleet total; 
-3. “accelerated development” scenario: this scenario foresees that in 2030 the registrations of electric vehicles will amount to 65 %, reaching about 7 million (almost 20 % of the total). 
+- “base” scenario: this scenario foresees an adoption of electric vehicles that does not go beyond 3.5 million vehicles in 2030; 
+- “moderate” scenario: in this scenario, electric vehicles reach 5.5 million in 2030, over 14 % of the fleet total; 
+- “accelerated development” scenario: this scenario foresees that in 2030 the registrations of electric vehicles will amount to 65 %, reaching about 7 million (almost 20 % of the total). 
 
 A common factor between these three scenarios is that the real impact of electric vehicles will start giving its result around 2025. 
 It should be noted, the value foreseen by the moderate scenario in 2030 is close to that envisaged by the Integrated Energy and Climate National Plan, equal to 6 million electric vehicles. 

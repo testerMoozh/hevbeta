@@ -35,15 +35,15 @@ The Energy Transition Law for Green Growth (LTECV) obliges certain players (Stat
 In France, companies are subject to the company vehicle tax (TVS). The TVS is applied according to a progressive scale based on the amount of CO2 emitted by the vehicle. The nature of this progressive scale aims to encourage companies to renew their fleet of vehicles in favour of less polluting vehicles. 
 
 Through the automotive bonus/malus system, and in the more general framework of French policy in favour of ecological transition the Government aims to support the acquisition and rental of low-emission vehicles. The amount of the bonus is established according to the level of CO2 emissions and the type of the new vehicle: 
-1. Up to € 7,000 (within the limit of 27% of the acquisition cost) for the purchase of a new private car or a van emitting 20 grams of CO2 / km or less. In this range of emissions, the aid for a second-hand car can be up to € 1,000 .  
-2. Up to € 2,000 for the purchase of a new private car or a van emitting between 21 grams of CO2 / km and 50 grams of CO2 / km.  
-3. Up to € 1,000 for the purchase of a new electric 2-or 3-Wheeler. 
-4. Up to € 50,000 (within the limit of 40 of the acquisition cost) for the purchase of a new electric of hydrogen heavy weigh vehicle. 
+- Up to € 7,000 (within the limit of 27% of the acquisition cost) for the purchase of a new private car or a van emitting 20 grams of CO2 / km or less. In this range of emissions, the aid for a second-hand car can be up to € 1,000 .  
+- Up to € 2,000 for the purchase of a new private car or a van emitting between 21 grams of CO2 / km and 50 grams of CO2 / km.  
+- Up to € 1,000 for the purchase of a new electric 2-or 3-Wheeler. 
+- Up to € 50,000 (within the limit of 40 of the acquisition cost) for the purchase of a new electric of hydrogen heavy weigh vehicle. 
 
 Conversion bonus aid is available when a new vehicle is bought to replace a Diesel vehicle older than 2011 or a Gasoline vehicle older than 2006. A conversion bonus can be cumulated with the Ecological bonus. The aid depends on the emission of the new vehicle acquired: 
-1. € 5,000 for a new vehicle purchased emitting 0 to 50 grams of CO2 / km  
-2. € 3,000 for a new vehicle purchased emitting 51 to 137 grams of CO2 / km (WLTP). 
-3. € 1,100 for a new electric 2- or 3- Wheeler 
+- € 5,000 for a new vehicle purchased emitting 0 to 50 grams of CO2 / km  
+- € 3,000 for a new vehicle purchased emitting 51 to 137 grams of CO2 / km (WLTP). 
+- € 1,100 for a new electric 2- or 3- Wheeler 
 
 ## Outlook   
 France will continue to support transport electrification through a suite of incentives targeting different transport modes.   

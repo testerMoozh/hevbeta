@@ -842,7 +842,7 @@ Typography
 ------------------------------------------------------------------- */
 
 a {
-	color: #111;
+	color: var(--sixth-color);
 }
 
 a:hover, a:focus {
@@ -2081,6 +2081,7 @@ Post
 		max-width: 100%;
 		
 	}
+
 	ol{
 		li{
 		color: var(--primary-color);
