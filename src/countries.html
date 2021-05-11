@@ -1,0 +1,103 @@
+---
+layout: "base.njk"
+pageTitle: "Countries"
+---
+	<!-- Wrapper start -->
+	<div class="main">
+
+		<!-- Header section start -->
+		<section class="module bg-dark bg-dark-10 " id="header" data-background="/assets/images/Countries-Header.jpg">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6">
+						<h1 class="hs-title-size-5 header-title">Countries</h1>
+					</div>
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Header section end -->
+
+		<!-- Menu start -->
+		<section class="module">
+			<div class="container">
+				<div class="countries-list-detail">
+				<h3>The HEV TCP welcomes countries and organizations that will both benefit from and contribute to the sharing of information and resources on hybrid and electric vehicles.</h3>
+				<div class="countries-col">
+					<ul id="clist">
+						{% for country in collections.countries %}
+						<li>
+							<a href="{{ country.url }}">{{ country.data.name }}</a>
+						</li>
+						{% endfor %}
+		
+					</ul>
+				</div>
+			</div>
+			</div>
+		</section>
+		<!-- Menu end -->
+		<!-- Callout start -->
+		<section class="module-small bg-dark">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-md-8 col-lg-6 col-sm-offset-1 ">
+
+						<div class="callout-text font-alt">
+							<h3 class="callout-title">The actual work on hybrid and electric vehicles is done through a variety of different Tasks that are focused on specific topics. </h3>
+						</div>
+
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-2 col-sm-offset-1">
+
+						<div class="callout-btn-box">
+							<a href="/tasks" class="btn btn-w btn-round">View All Tasks</a>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Callout end -->
+		<!-- Divider -->
+		<hr class="divider-d">
+		<!-- Divider -->
+		<script>
+			var list, i, switching, b, shouldSwitch;
+			list = document.getElementById("clist");
+			switching = true;
+			/* Make a loop that will continue until
+			no switching has been done: */
+			while (switching) {
+				// start by saying: no switching is done:
+				switching = false;
+				b = list.getElementsByTagName("LI");
+				// Loop through all list-items:
+				for (i = 0; i < (b.length - 1); i++) {
+				// start by saying there should be no switching:
+				shouldSwitch = false;
+				/* check if the next item should
+				switch place with the current item: */
+				if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+					/* if next item is alphabetically
+					lower than current item, mark as a switch
+					and break the loop: */
+					shouldSwitch = true;
+					break;
+				}
+				}
+				if (shouldSwitch) {
+				/* If a switch has been marked, make the switch
+				and mark the switch as done: */
+				b[i].parentNode.insertBefore(b[i + 1], b[i]);
+				switching = true;
+				}
+			}
+		</script>

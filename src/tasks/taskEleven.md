@@ -1,0 +1,76 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 11"
+title: "Electric Cycles"
+status: "closed"
+timePeriod: "Task started in 2006, completed 2011"
+Participants: [Austria, Switzerland, the United States]
+shortDescription: "The objectives of Task 11 were to identify barriers for market penetration of electric cycles and to develop and test ways to overcome these barriers."
+taskOperatorName: "Mr. Hannes Neupert "
+taskOperatorAffiliation: "ExtraEnergy E.V."
+taskOperatorEmail: "hannes.neupert@extraenergy.org "
+contactName: ""
+contactAffiliation: ""
+contactEmail: ""
+publicationLink: "/publications/annualReport2020"
+
+---
+
+## Objective of Task
+The objectives of Task 11 were to identify barriers for market penetration of electric cycles and to develop and test ways to overcome these barriers. The aim was to assist in the establishment of electric two-wheelers as a sustainable means of transport in many countries. Subtasks focused on the following key issues: 
+
+- Assessing the role that two-wheeled electric vehicles can play in improving urban mobility and their interaction with other transport modes. 
+- Identifying e-bikes’ energy-saving potential to justify governmental support. 
+- Recommending market introduction strategies directed at manufacturers, importers and dealers, as well as authorities at all levels. 
+- Identifying technology improvements that are required. 
+- Identifying infrastructure requirements. 
+- Sharing experiences and information obtained from ongoing and completed projects (extended dissemination). 
+
+## working method
+This Task was completed through five progress meetings and a workshop with key stakeholders. The work of this Task has been performed in five well-integrated subtasks: 
+
+##### Subtask 1: Energy-saving and market potential 
+
+- Inventory of vehicles that are offered on the market, and also prototypes, 
+- Successful fields of application, 
+- Benefits of electric cycles for users and the public, 
+- Success factors regarding market introduction, 
+- Identification of desired governmental support. 
+
+##### Subtask 2: Market introduction 
+
+- Analysis of the role of market actors in different countries, 
+- Recommendations for national and local governments as well as for manufacturers, importers, and dealers regarding collaboration in market introduction. 
+- Promising networks for the market introduction of electric cycles. 
+
+##### Subtask 3: Technology improvements 
+
+- State of the art of vehicle technology, 
+- Requirements for electric and hybrid drive systems for electric two-wheelers in different market segments. 
+
+##### Subtask 4: Infrastructure 
+
+- Public charging infrastructure for electric scooters, 
+- Safe parking places and preferred parking facilities for electric cycles. 
+
+##### Subtask 5: Sharing experiences 
+
+- Implementation and co-ordination of sharing experiences, 
+- Technical visits  
+
+## Results
+Task 11 worked with partners to develop a handbook for bicycle policies for municipal decision makers to establish e-mobility in their communities. The partners included the organization ExtraEnergy and others working within the framework of the European Union (EU) project “Go Pedelec!”. 
+
+In early Task meetings, particular attention was paid to the market potential of electric cycles, and the task force identified the following as critical issues to address: 
+
+- The need to clearly explain why governments should support both electric bicycles and scooters. 
+- Safety aspects in manufacturing batteries, and in particular the social responsibility. 
+- “Adaptation sets” to convert conventional bicycles into electric ones. 
+- The issue of poor-quality products, which can lead to negative publicity. 
+- Homologation or labelling to ensure that existing regulations are respected. 
+- Charging facilities, which could remain a crucial issue for electric scooters. In areas with low requirements on e-scooter performance (range, speed, driver’s weight), an approach using removable batteries could be successful. However, for most of today’s applications, batteries are too heavy to be removed and charged at any outlet, which is common practice for most of the e-bikes. 
+
+Much information was gathered in the meetings from 2006–2008, allowing the Task to gain a broad vision on the electric cycle market and its actors, along with the market situation and governmental support measures. Regarding technology, an extensive investigation of product characteristics was made, as well as identification of the most important requirements for market introduction. The Task also focused on identifying which product characteristics of electric cycles would give the largest increase in customer satisfaction for the lowest investment, while also highlighting the main technological constraints.  
+
+In the later stages, while attending several conferences, the Task presented the vision of integrating e-bikes into the overall e-mobility and mobility policies and also collected conference materials in order to benchmark its own findings. 

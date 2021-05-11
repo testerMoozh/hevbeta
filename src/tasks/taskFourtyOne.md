@@ -1,0 +1,39 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 41"
+title: "Electric Freight Vehicles"
+status: "Ongoing"
+timePeriod: "Task started in April 2019, expected completion March 2022"
+Participants: [Austria, Germany, Switzerland, Turkey, United Kingdom]
+shortDescription: "The Task's main objectives are to monitor progress and review relevant aspects for a successful introduction of electric freight vehicles (EFV) into the market. "
+taskOperatorName: "Mr. Özcan Deniz "
+taskOperatorAffiliation: "German Aerospace Center (DLR)"
+taskOperatorEmail: "Oezcan.Deniz@dlr.de"
+contactName: ""
+contactAffiliation: ""
+contactEmail: ""
+publicationLink: "/publications/annualReport2020"
+
+
+---
+
+## Objective of Task
+The Task's main objectives are to monitor progress and review relevant aspects for a successful introduction of electric freight vehicles (EFV) into the market. Three focus areas are included for this purpose: 
+
+![Focus areas of task 41](/assets/images/task41_figure_one.png)
+
+The first area "technology development of EFV" addresses the technical viability of EFV. Based on current available EFV on the market, performances as well as standards and norms for EFV are described to monitor technical advances of EFV. The development of the charging infrastructure, in particular with regard to costs and availability, is also in focus. 
+
+The second area of interest deals with "best practice and suitability aspects of EFV" to identify potential application areas for EFV. Based on best practice pilot projects, successful examples of EFV implementations will be described. This includes on analysis of their opportunities and barriers for market introduction. The third area looks at demand-side issues and is linked both to end customers and policies. In view of the different suitability of EFV technologies for replacing conventional diesel engines, economic and ecological aspects of EFV will be evaluated. By using existing models, fleet Total Cost of Ownership and CO2-emission calculations for promising "vehicle - transport task" combinations with close-to-reality data are undertaken. 
+
+The topics of each focus area are presented in form of short fact sheets (1-2 pages), which will provide the base to review the aspects for a successful introduction of EFV into the market. 
+
+The scope of Task 41 includes vehicles of the size classes N1, N2 and N3 and all types of electrified or electric powertrains like hybrid, plugin-hybrid, battery electric, fuel cell electric and electric road powertrains. 
+
+## working method
+The working method comprises desk research, workshops and public outreach. 
+
+![Focus areas of task 41](/assets/images/task41_figure_two.png)
+
+The main approach is to collect and exchange information in workshops and through contacts to other international networks. According to the objectives, the workshops are aimed at professionals from manufacturers, TIER1 suppliers, researchers, project managers, city planners, policy makers and other stakeholders. The topics and the individual orientation of the workshops are determined by the task partners. There are both public and non-public workshops planned. Individual contributions/sessions can be treated confidentially at the request of the participants. It is expected that the partners actively participate at the Workshops. 

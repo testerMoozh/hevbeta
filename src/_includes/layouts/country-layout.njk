@@ -1,0 +1,131 @@
+{% extends "base.njk" %}
+
+{% block content %}
+	<!-- Wrapper start -->
+	<div class="main">
+
+		<!-- Post single start -->
+		<section class="module">
+			<div class="container">
+
+				<div class="row">
+
+					<!-- Content column start -->
+					<div class="col-sm-8 " style="margin-top: 4em;">
+						<a class="back-title"  href="../"><img src="/assets/images/prev-light.png" style="height: 20px; margin-right: 15px;"> Back to countries</a>
+						<div class="break"></div>
+						<!-- Post start -->
+						<div class="post">
+							<h1 class="post-title" >{{name}}</h1>
+							<h2>EV ADOPTION BY YEAR</h2>
+							<div class="post-thumbnail">
+								<div id='myDiv'></div>
+							</div>
+
+							<div class="post-entry">                    
+								{{ content | safe}}
+							</div>
+
+						</div>
+						<!-- Post end -->
+					</div>
+					<!-- Content column end -->
+
+					<!-- Sidebar column start -->
+					<div class="col-sm-4 col-md-3 col-md-offset-1 sidebar" style="margin-top: 25%;">
+					
+						<!-- Widget start -->
+						<div class="widget meta-data-countries">
+							<a href="{{ publicationLink }}">View Full Country Report</a>
+							<h5 class="widget-title font-alt"></h5>
+							<h5 class="meta-title"> DELEGATE</h5>
+							<h5 class="meta-delegate-small">{{ delegateName }}</h5>
+							<h5 class="meta-delegate-small"> {{ delegateAffiliation }}</h5>
+							<h5 class="delegate-email"> {{delegateEmail}}</h5>
+							<br>
+							<h4 class="meta-delegate-small">{{ contactNameTwo }}</h4>
+							<h4 class="meta-delegate-small">{{ contactAffiliationTwo }}</h4>
+							<h4 class="delegate-email">{{contactEmailTwo}}</h4>
+							<h5 class="widget-title font-alt"></h5>
+							<h5 class="meta-title"> ONGOING TASKS</h5>
+							{% for ongoing in onGoings %}
+								<div class="contacts">
+									<a class="meta-task-country-list" href=""> {{ ongoing }}</a>
+								</div>
+							{% endfor %}
+							<h5 class="widget-title font-alt"></h5>
+							<h5 class="meta-title"> COMPLETED TASKS </h5>
+							{% for completedTask  in completedTasks %}
+								<div class="contacts">
+									<a class="meta-task-country-list" href=""> {{ completedTask }}</a>
+								</div>
+							{% endfor %}
+
+						</div>
+						<!-- Widget end -->
+
+					</div>
+					<!-- Sidebar column end -->
+					</div>
+				</section>
+				</div><!-- .row -->
+				<!-- Menu start -->
+				<section class="module" style="background-color: var(--fifth-color);">
+					<div class="container">
+						<div class="countries-list-detail-bottom ">
+						<h3>Explore More</h3>
+						<div class="countries-col">
+							<ul id="clist">
+								{% for country in collections.countries %}
+								<li>
+									<a href="{{ country.url }}">{{ country.data.name }}</a>
+								</li>
+								{% endfor %}
+				
+							</ul>
+						</div>
+					</div>
+					</div>
+				</section>
+				<!-- Menu end -->
+		<!-- Divider -->
+		<hr class="divider-d">
+		<!-- Divider -->
+		<!-- Post single end -->
+<script>
+        var trace1 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: {{ BEV }},
+        name: 'BEV',
+        type: 'bar'
+        };
+        var trace2 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: {{ PHEV }},
+        name: 'PHEV',
+        type: 'bar',
+        marker: {
+            color: 'rgb(83, 222, 105)'
+        }
+        };
+        var trace3 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: {{ HEV }},
+        name: 'HEV',
+        type: 'bar',
+        marker: {
+            color: 'rgb(182,200,216)'
+        }
+        };
+        var data = [trace1, trace2, trace3];
+        var layout = {
+            xaxis: {
+                tickangle: -45
+            },
+            barmode: 'group'
+            };
+            Plotly.newPlot('myDiv', data, layout);
+    </script>
+{% endblock content %}	
+	
+	

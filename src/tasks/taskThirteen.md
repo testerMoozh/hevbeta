@@ -1,0 +1,51 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 13"
+title: "Fuel Cell Vehicles"
+status: "closed"
+timePeriod: "Task started in 2007, completed 2010"
+Participants: [Austria, Switzerland, United States]
+shortDescription: "aimed to report on the current status of the heavy-duty hybrid vehicles “playing field”."
+taskOperatorName: "Ms. Gabriela Telias"
+taskOperatorAffiliation: "Austrian Agency for Alternative Propulsion Systems (A3PS) "
+taskOperatorEmail: "gabriela.telias@a3ps.at"
+contactName: ""
+contactAffiliation: ""
+contactEmail: ""
+publicationLink: "/publications/annualReport2020"
+
+---
+
+## Objective of Task
+Task 13 aimed to produce impartial analysis of the state of FCV activities worldwide. The main aspects to analyse were the specific demands for power, cost, lifetime, and the range of vehicles powered by fuel cells, batteries, and all types of hybrid solutions.  
+
+## working method
+The primary tasks for Task 13 were technology assessments and information exchange between its member counties—Austria, Switzerland, and the U.S.—on national FCV-related research, development, and demonstration (RD&D) activities.  
+
+The topic included in this task were: 
+
+1. The fuel cell vehicle system 
+2. Hybridisation 
+3. System integration and behaviour 
+4. Cross-cutting issues  
+
+Close cooperation with the TCP on Advanced Fuel Cells ensured that information and knowledge from fuel cell experts was integrated into this Task and there was no duplication of work that was relevant for both TCPs.  
+
+In parallel to this Task, some HEV TCP member countries strongly supported fuel cell research in their national R&D programs and participated in regional and multilateral activities such as the Fuel Cells and Hydrogen Joint Technology Initiative of the European Union launched in late 2008.  
+
+The Task 13 main working method and activities consisted of:  
+
+1. Dissemination activities through published papers and presentations at international conferences  
+2. Expert workshops and Task meetings  
+3. A final report 
+
+## Results
+Task 13 activities were concluded at the end of 2010 with a final report exclusive for Task members. This final report compiles an up-to-date, neutral, and comprehensive assessment of current trends in fuel cell technology (system configurations and components) including: 
+
+1. Fuel cell vehicles’ configuration, 
+2. Main components for FCVs: power electronics and electric machines, energy storage, and fuel cells, 
+3. Hydrogen production, storage in vehicle, dispensing (connectors) and distribution, 
+4. A detailed description of national efforts worldwide supporting this technology through RD&D. 
+
+FCV demonstration projects in Europe, Japan, and the U.S. were reviewed. Factors considered were the results on driving range, fuel economy, fuel cell specific power and durability, refuelling rates, vehicle maintenance data, well-to-wheel greenhouse gas emissions, and efficiency where the data was available. Two examples of major deployment efforts are the German Clean Energy Partnership (CEP) Programme and the California Fuel Cell Partnership. 

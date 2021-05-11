@@ -1,0 +1,65 @@
+{% extends "base.njk" %}
+
+{% block content %}
+	<!-- Wrapper start -->
+	<div class="main">
+
+		<!-- Post single start -->
+		<section class="module">
+			<div class="container">
+
+				<div class="row">
+
+					<!-- Content column start -->
+					<div class="col-sm-8 " style="margin-top: 4em;">
+						<a class="back-title"  href="../"><img src="/assets/images/prev-light.png" style="height: 20px; margin-right: 15px;"> Back to Tasks</a>
+						<div class="break"></div>
+						<!-- Post start -->
+						<div class="post">
+						<h3 class="task-page-number" style="color: var(--primary-color);font-family: 'Archivo Black'; text-transform: uppercase;font-size: 3em;margin-bottom: 0;">{{ number }}</h2>
+						<h1 class="task-page-title" style="color: var(--third-color); font-family: 'Archivo Black';font-size: 4.5em; line-height: 1.2em; margin-top: .1em;">{{ title }}</h1>
+							<div class="post-entry">                    
+								{{ content | safe}}
+							</div>
+
+						</div>
+						<!-- Post end -->
+					</div>
+					<!-- Content column end -->
+
+					<!-- Sidebar column start -->
+					<div class="col-sm-4 col-md-3 col-md-offset-1 sidebar" style="margin-top: 25%;">
+					
+						<!-- Widget start -->
+							<div class="meta-data-countries">
+								<a class="full-view" href="{{ publicationLink }}">View Full Task Report<span></span></a>
+								<hr>
+								<h4 class="meta-title">status</h4>
+								<h4 class="meta-delegate-small">{{ status }}</h4>
+								<hr>
+								<h4 class="meta-title">time period</h4>
+								<h4 class="meta-delegate-small">{{ timePeriod }}</h4>
+								<hr>
+								<h4 class="meta-title">Operating Agent</h4>
+								<h4 class="meta-delegate-small">{{ taskOperatorName }}</h4>
+								<h4 class="meta-delegate-small">{{ taskOperatorAffiliation }}</h4>
+								<h4 class="delegate-email">{{ taskOperatorEmail }}</h4>
+								<hr>
+								<h4 class="meta-title">countries</h4>
+								{% for Participant  in Participants %}
+									<div class="contacts">
+										<a class="delegate-email"> {{ Participant }} </a>
+									</div>
+								{% endfor %}
+								<hr>                   
+							</div>
+						<!-- Widget end -->
+
+					</div>
+					<!-- Sidebar column end -->
+					</div>
+				</section>
+
+{% endblock content %}	
+	
+	

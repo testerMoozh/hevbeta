@@ -1,0 +1,89 @@
+---
+layout: "base.njk"
+pageTitle: "Contact Us"
+---
+	<!-- Wrapper start -->
+	<div class="main">
+
+		<!-- Header section start -->
+		<section class="module bg-dark bg-dark-10 " id="header" data-background="/assets/images/About-Header.jpg">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6">
+						<h1 class="hs-title-size-5 header-title">Contact</h1>
+					</div>
+				</div><!-- .row -->
+			</div>
+		</section>
+		<section class="module">
+			<div class="container">
+				<div class="countries-list-detail">
+				<h3>The work of HEV TCP is governed by the Executive Committee (“ExCo”), which consists of one member designated by each Contracting Party. Contracting Parties are either governments of IEA countries or parties designated by their respective governments. The HEV TCP ExCo meets twice a year to discuss and plan the working programme. </h3>
+						<!-- Filter section start -->
+				</div>
+			</div>
+		</section>
+		
+		<!-- Header section end -->
+		<!-- About start -->
+		<section class="contact-sections">
+			<div class="container">
+				<h1>Contacts for Countries</h1>
+				<div class="contact-grid-wrapper">
+					<div class="contacts">
+						<h1>Chair</h1>
+						<p>Ms. Carol Burelle</p>
+						<p>Previously Natural Resources Canada</p>                    
+						<a>carol.burelle@canada.ca</a>                    
+					</div>
+					<div class="contacts">
+						<h1>Vice-chair and country delegate for The Netherlands </h1> 
+						<p>Sonja Munnix</p>
+						<p>Netherlands Enterprise Agency</p>                    
+						<a>sonja.munnix@rvo.nl </a>                    
+					</div>
+					<div class="contacts">
+						<h1>Secretary</h1>
+						<p>James Miller</p>
+						<p>Argonne National Laboratory</p>                    
+						<a>james.miller@anl.gov</a>                    
+					</div>
+					<div class="contacts">
+						<h1>Vice-chair and country delegate for South Korea</h1>
+						<p>Prof. Ocktaeck Lim</p>
+						<p>Ulsan University, Republic of Korea </p>                    
+						<a>otlim@ulsan.ac.kr</a>                    
+					</div>
+					{% for country in collections.countries %}
+					<div class="contacts">
+						<h1>{{ country.data.name }}</h1>
+						<p>{{ country.data.contactName }}</p>
+						<p>{{ country.data.contactAffiliation }}</p>                    
+						<a>{{ country.data.contactEmail }}</a>
+						<br>
+						<p>{{ country.data.contactNameTwo }}</p>
+						<p>{{ country.data.contactAffiliationTwo }}</p>                    
+						<a>{{ country.data.contactEmailTwo }}</a>                     
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="container">
+				<h1>Contacts for Tasks</h1>
+				<div class="contact-grid-wrapper">
+					{% for task in collections.tasks %}
+					<div class="contacts">
+						<h1>{{ task.data.number }}</h1>
+						<p>{{ task.data.taskOperatorName }}</p>
+						<p>{{ task.data.taskOperatorAffiliation }}</p>                    
+						<a>{{ task.data.taskOperatorEmail }}</a>                    
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+		<!-- Divider -->
+		<hr class="divider-d">
+		<!-- Divider -->

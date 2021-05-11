@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The HEV TCP, with a membership of 18 countries, collaborates on shared projects (Tasks) to better understand and address technical and non-technical challenges, and provide guidance to policy makers.">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+
+</head>
+<body>
+    <div class="top-navbar">
+        <div class="container">
+            <p>Technology Collaboration Programme</p>
+            <h4>by<span>iea</span></h4>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="container">
+            <a href="/"><img src="/assets/images/dark-logo.png" alt="Open the homepage" class="img-fluid"></a>
+            <div class="mobile-icon" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div> 
+            <nav id="mobile-menu">    
+                <a class="close-button" id="close-button" onclick="closeMenue()">&#10006;</a>
+                <ul class="primary-nav">
+                    <li><a href="/countries">Countries</a></li>
+                    <li><a href="/tasks">Tasks</a></li>
+                    <li><a href="/latest">Latest</a></li>
+                    <li><a href="/publications">Publications</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a class="members-cta" href="#">Members</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <section class="specific-country">
+        <div class="container">
+            <a href="../"> < Back to countries</a>
+            <div class="split">
+                <div class="text-block-country">
+                    <h1></h1>
+                    <h4>EV ADOPTION BY YEAR</h4>
+                    <div id='myDiv'></div>
+                    
+    <script>
+        var trace1 = {
+        x: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019', '2020'],
+        y: [null, null, null, null, null, 146719, 257000, 468000, 788000, 834000, 1000000],
+        name: 'BEV',
+        type: 'bar'
+        };
+
+        var trace2 = {
+        x: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019', '2020'],
+        y: [null, null, null, null, null, 60663, 79000, 111000, 265000, 226000, 247000],
+        name: 'PHEV',
+        type: 'bar'
+        };
+
+        var trace3 = {
+        x: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018','2019', '2020'],
+        y: [3734, 5596, 23697, 34709, 32120, 38803, 107080, 182549, 260380, 381588, 523371],
+        name: 'HEV',
+        type: 'bar'
+        };
+
+        var data = [trace1, trace2, trace3];
+
+        var layout = {
+            font:{
+                size: 10
+            },
+            barmode: 'group'
+            };
+
+            Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
+
+    </script>
+                </div>
+                <div class="meta-data-countries">
+                    <a href="">View Full Country Report<span></span></a>
+                    <hr>
+                    <h4 class="meta-title">DELEGATE</h4>
+                    <h4 class="meta-delegate-small"></h4>
+                    <h4 class="meta-delegate-small"></h4>
+                    <h4 class="delegate-email"></h4>
+                    <br>
+                    <h4 class="meta-delegate-small"></h4>
+                    <h4 class="meta-delegate-small"></h4>
+                    <h4 class="delegate-email"></h4>
+                    <hr>
+                    <h4 class="meta-title">ONGOING TASKS</h4>
+                    
+                    <hr>
+                    <h4 class="meta-title">COMPLETED TASKS</h4>
+                    
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="countries-list-detail" style="background-color: rgb(238, 238, 238);">
+        <div class="container">
+            <h1 class="explore-more-title">Explore More</h1>
+            <div class="countries-col">
+                <ul>
+                    
+                    <li>
+                        <a href="/countries/austria/">Austria</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/china/">China</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/The Netherlands/">The Netherlands</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/belgium/">Belgium</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/canada/">Canada</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/denmark/">Denmark</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/finland/">Finland</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/france/">France</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/germany/">Germany</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/ireland/">Ireland</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/italy/">Italy</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/norway/">Norway</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/republic-of-korea/">Republic of Korea</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/spain/">Spain</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/sweden/">Sweden</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/switzerland/">Switzerland</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/uk/">United Kingdom</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/countries/us/">United States of America </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        var trace1 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: ,
+        name: 'BEV',
+        type: 'bar'
+        };
+
+        var trace2 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: ,
+        name: 'PHEV',
+        type: 'bar'
+        };
+
+        var trace3 = {
+        x: ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012','2011', '2010'],
+        y: ,
+        name: 'HEV',
+        type: 'bar'
+        };
+
+        var data = [trace1, trace2, trace3];
+
+        var layout = {
+            xaxis: {
+                tickangle: -45
+            },
+            barmode: 'group'
+            };
+
+            Plotly.newPlot('myDiv', data, layout);
+
+    </script>
+
+
+    <section class="bottom-nav">
+        <div class="container">
+            <div class="left-bottom-col">
+                <img src="/assets/images/dark-logo.png">
+                <p> &#169; HEV-TCP 2020</p>
+            </div>
+            <div class="middle-bottom-col">
+                
+                <ul class="bottom-list">
+                    <li>
+                        <a href="/tasks">Tasks</a>
+                    </li>
+                    <li>
+                        <a href="/latest">Latest</a>
+                    </li>
+                    <li>
+                        <a href="/countries" >Countries</a>
+                    </li>
+                    <li>
+                        <a href="/publications">Publications</a>
+                    </li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a>Members</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-bottom-menu">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+            </div>
+        </div>
+    </section>
+    <script>
+        function myFunction(x) {
+            document.getElementById('mobile-menu').style.display= "block";
+        }
+        function closeMenue() {
+            document.getElementById('mobile-menu').style.display= "none";
+        }
+    </script>
+</body>
+</html>

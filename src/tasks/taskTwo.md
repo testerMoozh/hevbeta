@@ -1,0 +1,43 @@
+---
+layout: "layouts/task-layout.njk"
+tags: "tasks"
+number: "Task 2"
+title: "Impact of EVs"
+shortDescription: "Governments need reliable information on the environmental and energy impacts of electric vehicles"
+status: "closed"
+timePeriod: "Task started in 1994, completed 1999 "
+Participants: [Austria, Canada, Germany, the Netherlands, Switzerland]
+taskOperatorName: ""
+taskOperatorAffiliation: ""
+taskOperatorEmail: ""
+contactName: ""
+contactAffiliation: ""
+contactEmail: ""
+publicationLink: "/publications/annualReport2020"
+
+
+---
+
+## Objective of Task
+Governments need reliable information on the environmental and energy impacts of electric vehicles. In 1994, when the task force started, few studies had been done on this subject, and some of the available	information was contradictory. 
+
+- The Environmental and Energy Impact Task Force (Annex II) worked for five years (1994-99) to produce a report on the impacts of electric vehicles. The following topics were studied: 
+- The environmental and energy impacts of electric vehicles at the national level were studied by means of a spreadsheet model which could calculate the results of the introduction of electric vehicles into a country's vehicle parc, using various initial assumptions and scenarios of market introduction. 
+- The environmental impacts of electric vehicles at the local level, i.e. at the street level, were studied using various assumptions about the relation between emissions from vehicles and the resulting concentrations of pollutants in the air. 
+- The environmental impacts of the manufacturing, use, and recycling of various types of batteries was studied. 
+- The possibilities were studied of introducing innovative new transportation chains in which one link was an electric vehicle.
+
+## working method
+Over five years, Task 2 members studied and modelled several aspects of energy and environmental impacts: 
+- Development of a future scenario for EV introduction to measure the energy and environmental impacts of electric vehicles at the national level using a spreadsheet model. The resulting data was compared with future scenarios in which no EVs were introduced. 
+- Environmental impacts due to the manufacturing and recycling of electric vehicle batteries. 
+- Local environmental impacts from vehicles in urban areas. 
+- Innovative transportation systems using EVs: The possibility of using EVs in combination with other transportation modes or systems was investigated, including the potential number of trips that could be made in different urban situations by these systems.       
+
+## Results
+The final report provided definitive answers to many questions about the environmental and energy impacts of electric vehicles. It clearly sets out the main factors related to reductions of noxious and greenhouse gas emissions. Some of the main findings were: 
+
+- It takes a long time, from ten to fifteen years or more, to replace a country's vehicle fleet. Various introduction scenarios for electric vehicles showed that even if EVs capture a large market share of 15 or 25 %, it would still take many years before the vehicle fleet as a whole would consist of 15 % of electric vehicles. For this reason, improvements in internal combustion engines will account for the major share of air quality improvements by 2015, and the assumed introduction of EVs would account for a relatively smaller share. 
+- The environmental impacts of EVs depends strongly on the way in which electricity is generated in specific countries. As a generality, this conclusion is not surprising, but the extent to which the generation mix influenced the impacts was. In countries with a high proportion of thermal electricity generation ("brown" electricity), the only advantage of EVs was that emissions were shifted from the tail pipe of the vehicle to the generation plant, and this is important for urban air quality. In countries with a high proportion of nuclear and hydropower electricity generation, EVs had strong advantages for clean air, greenhouse gas reductions, and diversification of energy supplies. 
+- The environmental impacts of batteries were not negligible, in a life cycle analysis of EVs they could add up to 20 % to the impacts of some parameters. The diversity of battery technologies is reflected in the diversity of environmental impacts, and more work will be needed to determine the impacts of the newer technologies. 
+- Various innovative transportation chains were described, and in each case their possible share of the total number of trips in a city was estimated. 
