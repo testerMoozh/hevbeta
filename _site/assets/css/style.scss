@@ -985,7 +985,21 @@ blockquote {
 		}
 	}
 }
-
+.filtering{
+	border: solid 1px var(--primary-color);
+	font-weight: bold;
+	color: var(--primary-color);
+	font-size: 1em;
+	font-family: 'Archivo Black';
+}
+input.searching {
+	border: solid 1px var(--primary-color);
+	font-weight: bold;
+	color: var(--primary-color);
+	font-size: 1em;
+	width: 300px;
+	font-family: 'Archivo Black';
+}
 
 /* ------------------------------------------------------------------
 Navbar
