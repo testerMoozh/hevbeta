@@ -228,10 +228,9 @@ a,
 }
 
 .btn.btn-w {
-	font-weight: bold;
 	color:var(--primary-color);
 	background-color: rgba(255, 255, 255, .9);
-	border: solid 1px var(--primary-color);
+	padding: 12px 35px;
 }
 
 .btn.btn-w:hover,
@@ -634,8 +633,7 @@ a,
 				margin-right: 2em;
 				margin-top: 0.5em;
 				//border: solid .5px var(--primary-color);
-				box-shadow: .5px .5px .3px grey;
-				background-color: rgb(255, 255, 255);
+				border-bottom: solid 2px var(--primary-color);
 				padding: 0.8em;
 				text-align: left;
 				position: relative;
@@ -727,7 +725,8 @@ a,
 .task-title{
 	font-family: 'Archivo Black';
 	margin-bottom: 0;
-	font-size: 1.6em;
+	font-size: 2em;
+	line-height: 1.2em;
 	padding-bottom: 0.2em;
 	color: #273747;
 	width: 100%;
@@ -740,25 +739,21 @@ a,
 	text-transform: none;
 	width: 100%;
 	margin-top: 0; 
+	margin-bottom: .8em;
 	padding-top: 0
 }
 .task-status-meta{
 	font-family: 'Roboto', sans-serif;
 	color: var(--third-color);
-	font-size: 1.2em;
-	margin-top: 0; 
+	font-size: 1.3em;
 	padding-top: 0;
-	display: inline;   
-	text-transform: uppercase;
+	display: inline; 
+	text-transform: uppercase;  
 	span{
-		margin-left: 8em;
+		margin-left: 9em;
 	}
 }
-.task-read-more{
-	color: var(--sixth-color);
-	font-size: 1em;
-	text-transform: uppercase;
-}
+
 .task-page-number{
 	color: var(--primary-color);
 	font-family: 'Archivo Black';
@@ -957,7 +952,7 @@ blockquote {
 	.container{
 		padding-top: 1em;
 		h1{
-			font-size: 1.6em;
+			font-size: 2em;
 			text-transform: uppercase;
 			color: #273747;
 			font-weight: bold;
@@ -969,19 +964,20 @@ blockquote {
 			.contacts{
 				margin-bottom: 2em;
 				h1{
-					font-size: 1.4em;
+					font-size: 1.8em;
 					text-transform: none;
 					margin-bottom: .3em;
 				}
 				p{
 					color: var(--primary-color);
-					font-size: 1.2em;
+					line-height: 1.4em;
+					font-size: 1.4em;
 					font-family: 'Roboto';
 					margin: .1em;
 				}
 				a{
 					color: var(--sixth-color);
-					font-size: 1.2em;
+					font-size: 1.5em;
 					font-family: 'Roboto';
 					margin: .1em;
 				}
@@ -2263,6 +2259,7 @@ Widgets
 .search-box {
 	position: relative;
 }
+
 
 /* -------------------------------------------------------------------
 Tags

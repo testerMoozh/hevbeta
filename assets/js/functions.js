@@ -69,7 +69,7 @@ function sortListtask() {
         var input, filter, ul, li, a, i, txtValue;
         input = document.getElementById("myInput");
         filter = input.value.toUpperCase();
-        ul = document.getElementById("tast-title");
+        ul = document.getElementById("task-lists");
         li = ul.getElementsByTagName("li");
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("a")[0];

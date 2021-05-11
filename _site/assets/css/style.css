@@ -201,10 +201,9 @@ a,
 }
 
 .btn.btn-w {
-  font-weight: bold;
   color: var(--primary-color);
   background-color: rgba(255, 255, 255, 0.9);
-  border: solid 1px var(--primary-color);
+  padding: 12px 35px;
 }
 
 .btn.btn-w:hover,
@@ -610,9 +609,7 @@ a,
   margin-bottom: 1em;
   margin-right: 2em;
   margin-top: 0.5em;
-  -webkit-box-shadow: .5px .5px .3px grey;
-          box-shadow: .5px .5px .3px grey;
-  background-color: white;
+  border-bottom: solid 2px var(--primary-color);
   padding: 0.8em;
   text-align: left;
   position: relative;
@@ -716,7 +713,8 @@ a,
 .task-title {
   font-family: 'Archivo Black';
   margin-bottom: 0;
-  font-size: 1.6em;
+  font-size: 2em;
+  line-height: 1.2em;
   padding-bottom: 0.2em;
   color: #273747;
   width: 100%;
@@ -730,27 +728,21 @@ a,
   text-transform: none;
   width: 100%;
   margin-top: 0;
+  margin-bottom: .8em;
   padding-top: 0;
 }
 
 .task-status-meta {
   font-family: 'Roboto', sans-serif;
   color: var(--third-color);
-  font-size: 1.2em;
-  margin-top: 0;
+  font-size: 1.3em;
   padding-top: 0;
   display: inline;
   text-transform: uppercase;
 }
 
 .task-status-meta span {
-  margin-left: 8em;
-}
-
-.task-read-more {
-  color: var(--sixth-color);
-  font-size: 1em;
-  text-transform: uppercase;
+  margin-left: 9em;
 }
 
 .task-page-number {
@@ -955,7 +947,7 @@ blockquote {
 }
 
 .contact-sections .container h1 {
-  font-size: 1.6em;
+  font-size: 2em;
   text-transform: uppercase;
   color: #273747;
   font-weight: bold;
@@ -974,21 +966,22 @@ blockquote {
 }
 
 .contact-sections .container .contact-grid-wrapper .contacts h1 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   text-transform: none;
   margin-bottom: .3em;
 }
 
 .contact-sections .container .contact-grid-wrapper .contacts p {
   color: var(--primary-color);
-  font-size: 1.2em;
+  line-height: 1.4em;
+  font-size: 1.4em;
   font-family: 'Roboto';
   margin: .1em;
 }
 
 .contact-sections .container .contact-grid-wrapper .contacts a {
   color: var(--sixth-color);
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: 'Roboto';
   margin: .1em;
 }
