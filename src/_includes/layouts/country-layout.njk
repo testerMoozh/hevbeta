@@ -78,7 +78,7 @@
 							<ul id="clist">
 								{% for country in collections.countries %}
 								<li>
-									<a href="{{ country.url }}">{{ country.data.name }}</a>
+									<a href="{{ country.url }}"><span><img src="{{ country.data.flag}}"></span>{{ country.data.name }}</a>
 								</li>
 								{% endfor %}
 				

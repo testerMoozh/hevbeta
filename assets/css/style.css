@@ -987,16 +987,16 @@ blockquote {
 }
 
 .filtering {
-  border: solid 1px var(--primary-color);
+  border: solid 1px #999999;
   font-weight: bold;
   font-size: 1em;
   font-family: 'Archivo Black';
 }
 
 input.searching {
-  border: solid 1px var(--primary-color);
+  border: solid .8px #999999;
   font-weight: bold;
-  color: var(--primary-color);
+  color: #999999;
   font-size: 1em;
   width: 300px;
   font-family: 'Archivo Black';
@@ -2413,11 +2413,16 @@ Shop
 /* -------------------------------------------------------------------
 Shope item
 ------------------------------------------------------------------- */
+.noMargin {
+  padding-bottom: 45px;
+  padding-top: 0;
+}
+
 .shop-item {
   text-align: center;
   margin: 0 0 40px;
-  -webkit-box-shadow: 0 0 10px grey;
-  box-shadow: 0 0 10px grey;
+  -webkit-box-shadow: 0 0 10px #b8b8b8;
+  box-shadow: 0 0 10px #b8b8b8;
 }
 
 .shop-item-image {
