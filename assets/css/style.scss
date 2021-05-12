@@ -1880,20 +1880,24 @@ Callout
 ------------------------------------------------------------------- */
 
 .callout-text {
+	padding: 0 6em;
 	color: rgba(255, 255, 255, 0.6);
 	font-weight: 400;
 	font-size: 1.2em;
 	font-family: 'Archivo Black';
-
+	text-align: center;
+	align-items: center;
 }
 
 .callout-title {
-	font-family: 'Archivo Black';
-	font-size: 2em; 
+	font-size: 1.6em; 
 	color: var(--fifth-color); 
 	color: #fff;
 	margin: 0;
 	font-weight: 200;
+	font-family: 'Roboto';
+	margin-left: 1.4em;
+
 }
 
 .callout-btn-box {
@@ -2668,6 +2672,12 @@ Responsive Media Querries
 @media (max-width: 1200px) {
 
 	/* Features */
+	.callout-text {
+		width: 70%;
+		margin-left: 5em;
+	}
+	
+
 	.flexible{
 		display: flex;
 		.callout-btn-box{
@@ -3023,7 +3033,13 @@ Multi-columns-row
 }
 
 @media (min-width: 1200px) {
-
+	.callout-text {
+		width: 70%;
+		margin-left: 20%;
+	}
+	.callout-title{
+		width: 70%;
+	}
 	.multi-columns-row .col-md-6:nth-child(2n + 3) { clear: none; }
 	.multi-columns-row .col-md-4:nth-child(3n + 4) { clear: none; }
 	.multi-columns-row .col-md-3:nth-child(4n + 5) { clear: none; }
