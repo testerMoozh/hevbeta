@@ -78,7 +78,7 @@ pageTitle: "Contact Us"
 				<div class="contact-grid-wrapper">
 					{% for task in collections.tasks %}
 					<div class="contacts">
-						<h1>Task {{ task.data.number }}</h1>
+						<h1>{{ task.data.number }}</h1>
 						<p>{{ task.data.taskOperatorName }}</p>
 						<p>{{ task.data.taskOperatorAffiliation }}</p>                    
 						<a>{{ task.data.taskOperatorEmail }}</a>                    
