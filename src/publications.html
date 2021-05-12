@@ -19,7 +19,7 @@ pageTitle: "Publications"
 			</div>
 		</section>
 		<!-- Header section end -->
-		<section class="module">
+		<section class="module" style="margin-bottom: 0;">
 			<div class="container">
 				<div class="countries-list-detail">
 				<h3>The HEV TCP publish an annual report in the Spring each year, summarising country developments and Task updates.</h3>
@@ -33,15 +33,14 @@ pageTitle: "Publications"
 				<form class="row">
 
 					<div class="col-sm-4 mb-sm-20">
-						<select class="form-control" onchange="hideelementsTasks()" id="task-filter">
-							<option selected="selected">Filter ... </option>
+						<select class="form-control filtering" onchange="hideelementsTasks()" id="task-filter">
 							<option>Annual Report</option>
 							<option>Misc</option>
 							<option>All</option>
 						</select>
 					</div>
 					<div class="col-sm-3 mb-sm-20">
-						<input type="text" id="publicationInput" onkeyup="workingpublicationSearch()" class="form-control" ame="search-task" placeholder="Search...">
+						<input type="text" id="publicationInput" onkeyup="workingpublicationSearch()" class="form-control searching" name="search-task" placeholder="Search ...">
 					</div>
 
 				</form>
@@ -58,16 +57,14 @@ pageTitle: "Publications"
 				<div class="row multi-columns-row">
                     <ul id="publications">
 						{% for publication in collections.publications %} 
-							<li style="list-style-type: none; position: relative;">       
-							<a class="sort" href="{{ publication.data.id }}"></a>
- 
+							<li style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
 										<img src="/assets/images/thumbnails/{{publication.data.thumbnailSrc}}" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
-											<a class="btn btn-round btn-b" style="margin-left: 0;" href="{{ publication.url }}"> {{ publication.data.title }}</a>
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="{{ publication.url }}"> {{ publication.data.title }}</a>
 										</div>
 									</div>
 								</div>
@@ -84,34 +81,32 @@ pageTitle: "Publications"
 	<hr class="divider-d">
 	<!-- Divider -->
 	<script>
-		var list, i, switching, b, shouldSwitch;
-		list = document.getElementById("publications");
-		switching = true;
-		/* Make a loop that will continue until
-		no switching has been done: */
-		while (switching) {
-			// start by saying: no switching is done:
-			switching = false;
-			b = list.getElementsByClassName("sort");
-			// Loop through all list-items:
-			for (i = 0; i < (b.length - 1); i++) {
-			// start by saying there should be no switching:
-			shouldSwitch = false;
-			/* check if the next item should
-			switch place with the current item: */
-			if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
-				/* if next item is alphabetically
-				lower than current item, mark as a switch
-				and break the loop: */
-				shouldSwitch = true;
-				break;
-			}
-			}
-			if (shouldSwitch) {
-			/* If a switch has been marked, make the switch
-			and mark the switch as done: */
-			b[i].parentNode.insertBefore(b[i + 1], b[i]);
-			switching = true;
-			}
-		}
+    function workingpublicationSearch() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("publicationInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("publications");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByClassName("searching")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "block";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+
+    function hideelementsTasks(){
+    d = document.getElementById("task-filter").value;
+	if (d = "All"){
+		document.getElementsByTagName("li").style.display = "block";
+	} else {
+    var divsToHide = document.getElementsByClassName(d); //divsToHide is an array
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.display = "none"; // depending on what you're doing
+    }
+    }   
+	}
 	</script>

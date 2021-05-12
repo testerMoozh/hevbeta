@@ -989,7 +989,6 @@ blockquote {
 .filtering {
   border: solid 1px var(--primary-color);
   font-weight: bold;
-  color: var(--primary-color);
   font-size: 1em;
   font-family: 'Archivo Black';
 }
@@ -1843,8 +1842,12 @@ Callout
 }
 
 .callout-title {
+  font-family: 'Archivo Black';
+  font-size: 2em;
+  color: var(--fifth-color);
   color: #fff;
   margin: 0;
+  font-weight: 200;
 }
 
 .callout-btn-box {
@@ -2088,6 +2091,10 @@ Post
   font-size: 5em;
   font-family: 'Archivo Black';
   margin-bottom: 3%;
+}
+
+.post-title a {
+  color: var(--primary-color);
 }
 
 .post-header {
