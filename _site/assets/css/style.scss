@@ -1874,7 +1874,16 @@ Portfoli Single
 	padding: 0 0 5px;
 	margin: 0 0 5px;
 }
-
+.pub{
+	ul{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 4fr) );
+		li{
+			margin: 1em;
+		}
+	}
+}
 /* -------------------------------------------------------------------
 Callout
 ------------------------------------------------------------------- */
@@ -2458,6 +2467,8 @@ Shope item
 .shop-item {
 	text-align: center;
 	margin: 0 0 40px;
+	-webkit-box-shadow: 0 0 10px grey;
+        box-shadow: 0 0 10px grey;
 }
 
 .shop-item-image {

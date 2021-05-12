@@ -1,7 +1,7 @@
 ---
 src: "HEVTCP-Newsletter-Dec20.pdf"
 description: "HEV-TCP Newsletter December 2020"
-title: "HEV-TCP Newsletter December 2020"
+title: "Newsletter Dec 2020"
 type: "newsletter"
 tags: 
     - "publications"

@@ -1,7 +1,7 @@
 ---
 src: "EV_City_Casebook_2021.pdf"
-description: "EV City Casebook 2021"
-title: "EV City Casebook 2021"
+description: "EV City Casebook"
+title: "EV City Casebook"
 type: "Misc"
 tags: "publications"
 thumbnailSrc: "EV_City_Casebook_2021.png"

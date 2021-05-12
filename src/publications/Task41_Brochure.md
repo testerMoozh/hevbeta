@@ -1,7 +1,7 @@
 ---
 src: "Task41_Brochure.pdf"
 description: "Task 41 Full Description"
-title: "Task 41 Full Description"
+title: "Task 41 Brochure"
 type: "Misc"
 tags: "publications"
 thumbnailSrc: "Task41_Brochure.png"

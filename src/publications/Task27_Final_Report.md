@@ -1,7 +1,7 @@
 ---
 src: "Task27_Final_Report.pdf"
 description: "Final Report of Task Twenty Seven"
-title: "Final Report of Task Twenty Seven"
+title: "Task 27 Report"
 type: "Misc"
 tags: "publications"
 thumbnailSrc: "Task27_Final_Report.png"
