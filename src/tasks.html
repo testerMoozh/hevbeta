@@ -60,8 +60,8 @@ pageTitle: "About"
 						<div>
 							<div class="row">
 								<div>
-									<p class="type" style="display: none;">{{ task.data.status }}</p>
-									<a class="task-title"> {{ task.data.number }} {{ task.data.title }}</a>
+									<p style="display: none;">{{task.data.number}}</p>
+									<a class="task-title" id="task-title"> Task {{ task.data.number }} {{ task.data.title }}</a>
 									<div class="task-short-desc">{{ task.data.shortDescription }}</div>
 									<h4 class="task-status-meta" >Status: {{ task.data.status }}</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="{{ task.url }}">read more</a>
@@ -97,3 +97,4 @@ pageTitle: "About"
 			}
 		});
 		</script>
+		

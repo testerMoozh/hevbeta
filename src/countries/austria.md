@@ -1,8 +1,8 @@
 ---
 layout: "layouts/country-layout.njk"
 name: "Austria"
-onGoings: [Task 1, Task 30, Task 41]
-completedTasks: [Task 2, Task 4, Task 10, Task 11, Task 13, Task 14, Task 15, Task 16, Task 17, Task 18, Task 19, Task 24, Task 27, Task 29, Task 33, Task 35]
+onGoings: [1, 30, 41]
+completedTasks: [2, 4, 10, 11, 13, 14, 15, 16, 17, 18, 19, 24, 27, 29, 33, 35]
 BEV: "[15972, 9242, 6757, 5433, 3826, 1677, 1281, 654, 427, 631, 112]"
 PHEV: "[7641, 2097, 1888, 1721, 1237, 1101, 434, 184, 0, 0, 0]"
 HEV: "[26026, 14408, 7513, 6572, 3474, 2411, 2360, 2573, 2171, 1310, 1248]"
