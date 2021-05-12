@@ -2,7 +2,7 @@
 src: "2013_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Gains Traction"
 title: "Annual Report 2013"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2013_annual_report.png"
 id: "h"

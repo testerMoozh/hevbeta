@@ -2,7 +2,7 @@
 src: "2019_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Hauls"
 title: "Annual Report 2019"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2019_annual_report.png"
 id: "b"

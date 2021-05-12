@@ -2,7 +2,7 @@
 src: "2015_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Delivers"
 title: "Annual Report 2015"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2015_annual_report.png"
 id: "f"

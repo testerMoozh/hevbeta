@@ -2,7 +2,7 @@
 src: "2006_annual_report.pdf"
 description: "Hybrid and Electric Vehicle 2006"
 title: "Annual Report 2006"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2006_annual_report.png"
 id: "o"

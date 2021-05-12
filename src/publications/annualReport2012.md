@@ -2,7 +2,7 @@
 src: "2012_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Captures the Imagination"
 title: "Annual Report 2012"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2012_annual_report.png"
 id: "i"

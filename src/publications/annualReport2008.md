@@ -2,7 +2,7 @@
 src: "2008_annual_report.pdf"
 description: "Progress Towards Sustainable Transportation; the Electric Drive Gains Momentum"
 title: "Annual Report 2008"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2008_annual_report.png"
 id: "m"

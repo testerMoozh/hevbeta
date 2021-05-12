@@ -2,7 +2,7 @@
 src: "2007_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Takes Off"
 title: "Annual Report 2007"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2007_annual_report.png"
 id: "n"

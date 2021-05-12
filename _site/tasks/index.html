@@ -96,9 +96,11 @@
 
 					<div class="col-sm-4 mb-sm-20">
 						<select class="form-control filtering" onchange="hideelementsTasks()" id="task-filter">
-							<option selected="selected">Filter ... </option>
-							<option>Closed</option>
-							<option>Ongoing</option>
+							<option name="taskstatus" value="" disabled selected hidden>Filter by Status </option>
+							<option name="taskstatus" value="closed">Closed</option>
+							<option name="taskstatus" value="Ongoing">Ongoing</option>
+							<option name="taskstatus" value="all">All</option>
+
 						</select>
 					</div>
 					<div class="col-sm-3 mb-sm-20">
@@ -112,15 +114,16 @@
 		<section class="module">	
 			<div class="container">
 				<div class="task-col">
-					<ul id="tast-title">
+					<ul class="sorting-type">
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 1 Information Exchange</a>
 									<div class="task-short-desc">serves as a platform for information exchange among member countries</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/1/">read more</a>
 									<hr class="underline">
 								</div>
@@ -128,13 +131,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 10 Electrochemical Systems</a>
 									<div class="task-short-desc">Task 10’s goal was to advance the state-of-the-art of battery and capacitor science and address issues related to their use in vehicles. </div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/10/">read more</a>
 									<hr class="underline">
 								</div>
@@ -142,13 +146,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 11 Electric Cycles</a>
 									<div class="task-short-desc">The objectives of Task 11 were to identify barriers for market penetration of electric cycles and to develop and test ways to overcome these barriers.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/11/">read more</a>
 									<hr class="underline">
 								</div>
@@ -156,13 +161,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 12 Heavy-Duty Hybrid Vehicles</a>
 									<div class="task-short-desc">aimed to report on the current status of the heavy-duty hybrid vehicles “playing field”.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/12/">read more</a>
 									<hr class="underline">
 								</div>
@@ -170,13 +176,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 13 Fuel Cell Vehicles</a>
 									<div class="task-short-desc">aimed to report on the current status of the heavy-duty hybrid vehicles “playing field”.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/13/">read more</a>
 									<hr class="underline">
 								</div>
@@ -184,13 +191,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 14 Market Development pf Electric Vehicles: Lessons Learned </a>
 									<div class="task-short-desc">this Task was designed to capture and report important lessons learned in past and new deployments of electric vehicles.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/14/">read more</a>
 									<hr class="underline">
 								</div>
@@ -198,13 +206,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 15 Plug-in Hybrid Electric Vehicles</a>
 									<div class="task-short-desc">This study focused on PHEVs rather than BEVs. The study examines PHEV powertrains with four separate designs, of which two of these are range extended vehicles.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/15/">read more</a>
 									<hr class="underline">
 								</div>
@@ -212,13 +221,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 16 Alternatives for Buses</a>
 									<div class="task-short-desc">This study focused on PHEVs rather than BEVs. The study examines PHEV powertrains with four separate designs, of which two of these are range extended vehicles.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/16/">read more</a>
 									<hr class="underline">
 								</div>
@@ -226,13 +236,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 17 Vehicle Optimization & System Integration </a>
 									<div class="task-short-desc">The scope of work has focused on the participant’s fields of expertise and basically covered the monitoring and analysis of component development and vehicle architecture relative to trends and strategies for EVs progress.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/17/">read more</a>
 									<hr class="underline">
 								</div>
@@ -240,13 +251,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 18 EV Ecosystems</a>
 									<div class="task-short-desc">The scope of the task is to advance international policy and the design of EV ecosystems</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/18/">read more</a>
 									<hr class="underline">
 								</div>
@@ -254,13 +266,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 19 Life Cycle Assessment of EVs </a>
 									<div class="task-short-desc">The purpose of this task was to exchange information among cities around the globe on how to reduce air pollution from road traffic.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/19/">read more</a>
 									<hr class="underline">
 								</div>
@@ -268,13 +281,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 2 Impact of EVs</a>
 									<div class="task-short-desc">Governments need reliable information on the environmental and energy impacts of electric vehicles</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/2/">read more</a>
 									<hr class="underline">
 								</div>
@@ -282,13 +296,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 20 Quick Charging</a>
 									<div class="task-short-desc">Reports on the current status of quick charging technology.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/20/">read more</a>
 									<hr class="underline">
 								</div>
@@ -296,13 +311,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 21 Accelerated Ageing Testing for Li-ion Batteries </a>
 									<div class="task-short-desc">The objective of Task 21 was to conduct an inventory of worldwide efforts used in the development and the application of accelerated testing procedures.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/21/">read more</a>
 									<hr class="underline">
 								</div>
@@ -310,13 +326,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 22 E-Mobility Business Models</a>
 									<div class="task-short-desc">Task 22 recognises that failure to develop these products and services could delay the growth in markets for EVs and limit adoption to niche applications. </div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/22/">read more</a>
 									<hr class="underline">
 								</div>
@@ -324,13 +341,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 23 Light-Electric-Vehicle Parking and Charging Infrastructure</a>
 									<div class="task-short-desc">The aim of Task 23 is to represent the interests of local governments in the standardisation of Light Electric Vehicle system architectures, infrastructure, communications and interchangeable batteries.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/23/">read more</a>
 									<hr class="underline">
 								</div>
@@ -338,13 +356,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 24 Economic Impact Assessment of E-Mobility</a>
 									<div class="task-short-desc">The objective of the Task is to get a better view on the value chain of electric mobility and the economic potential in the local e-mobility sector in every participating country in Task 24.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/24/">read more</a>
 									<hr class="underline">
 								</div>
@@ -352,13 +371,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 25 Plug-in Electric Vehicles</a>
 									<div class="task-short-desc">The topics of the task include vehicle energy consumption, component costs, vehicle costs, total cost of ownership (TCO), and market penetration. </div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/25/">read more</a>
 									<hr class="underline">
 								</div>
@@ -366,13 +386,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 26 Wireless Power Transfer for EVs</a>
 									<div class="task-short-desc">The topics of the task include vehicle energy consumption, component costs, vehicle costs, total cost of ownership (TCO), and market penetration. </div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/26/">read more</a>
 									<hr class="underline">
 								</div>
@@ -380,13 +401,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 27 Electrification of Transport Logistics Vehicles (eLogV)</a>
 									<div class="task-short-desc">The topics of the task include vehicle energy consumption, component costs, vehicle costs, total cost of ownership (TCO), and market penetration. </div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/27/">read more</a>
 									<hr class="underline">
 								</div>
@@ -394,13 +416,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 28 Home Grids and V2X Technologies</a>
 									<div class="task-short-desc">Task 28 aims to address the technical and economic knowledge gaps including regulatory issues preventing V2X technology to fully deploy. </div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/28/">read more</a>
 									<hr class="underline">
 								</div>
@@ -408,13 +431,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 29 Electrified, Connected and Automated Vehicles</a>
 									<div class="task-short-desc">Analyses the potential technological synergies of electrification, connectivity and automation of road vehicles and derive research, development and standardisation need</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/29/">read more</a>
 									<hr class="underline">
 								</div>
@@ -422,13 +446,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 30 Assessment of Environmental Effects of Electric Vehicles</a>
 									<div class="task-short-desc">The aim of Task 30 (2016 – 2020) is to analyse and assess environmental effects of EVs on water, land use, resources and air based on LCA and in cooperation with participating countries in the HEV TCP.</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/30/">read more</a>
 									<hr class="underline">
 								</div>
@@ -436,13 +461,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Closed</p>
 									<a class="task-title"> Task 31 Fuels and Energy Carriers for Transport</a>
 									<div class="task-short-desc">The objective is to compare current (2016) and future electric and plug-in hybrid vehicles with vehicles running on the conventional motor fuels gasoline and diesel.</div>
-									<h4 class="task-status-meta Closed" >Status: Closed</h4>
+									<h4 class="task-status-meta" >Status: Closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/31/">read more</a>
 									<hr class="underline">
 								</div>
@@ -450,13 +476,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 32 Small Electric Vehicles</a>
 									<div class="task-short-desc">The objective of this task is to promote broader commercialisation, acceptance and further development of SEVs.</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/32/">read more</a>
 									<hr class="underline">
 								</div>
@@ -464,13 +491,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Closed</p>
 									<a class="task-title"> Task 33 Battery Eletric Buses</a>
 									<div class="task-short-desc">The objective of this task is to promote broader commercialisation, acceptance and further development of SEVs.</div>
-									<h4 class="task-status-meta Closed" >Status: Closed</h4>
+									<h4 class="task-status-meta" >Status: Closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/33/">read more</a>
 									<hr class="underline">
 								</div>
@@ -478,13 +506,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 34 Batteries</a>
 									<div class="task-short-desc">Task 34’s goal is to encourage the sharing and dissemination of current information about battery topics of interest to the vehicle community.</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/34/">read more</a>
 									<hr class="underline">
 								</div>
@@ -492,13 +521,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 35 Fuel Cell Vehicles</a>
 									<div class="task-short-desc">Aims at supporting a broader commercialization, acceptance and a further development of fuel cell electric vehicles (FCVs).</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/35/">read more</a>
 									<hr class="underline">
 								</div>
@@ -506,13 +536,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Closed</p>
 									<a class="task-title"> Task 36 EV Consumer Adoption and Use</a>
 									<div class="task-short-desc">The task aims to provide a platform to connect stakeholders with researchers working on consumer adoption and use of EVs.</div>
-									<h4 class="task-status-meta Closed" >Status: Closed</h4>
+									<h4 class="task-status-meta" >Status: Closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/36/">read more</a>
 									<hr class="underline">
 								</div>
@@ -520,13 +551,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 37 Extreme Fast Charging</a>
 									<div class="task-short-desc">Task 37 is focussed on the following objectives: investigating station siting – what factors are considered (i.e. space requirements, city centre, community/corridor, etc.);</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/37/">read more</a>
 									<hr class="underline">
 								</div>
@@ -534,13 +566,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 38 Marine Applications (e-Ships)</a>
 									<div class="task-short-desc">Task 38 focuses on overviewing and encouraging the development and deployment of e-Ships, by building and sharing key knowledge on projects, performance, segments and demand. </div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/38/">read more</a>
 									<hr class="underline">
 								</div>
@@ -548,13 +581,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 39 Interoperability of e-Mobility Services</a>
 									<div class="task-short-desc">Task 39 will focus on the charging infrastructure and more specifically on the interoperability aspects of e-mobility services like charging of passenger cars in the public and semi-public domain.</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/39/">read more</a>
 									<hr class="underline">
 								</div>
@@ -562,13 +596,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 4 EV Infrastructure</a>
 									<div class="task-short-desc">Governments, electric utilities, and the auto industry needed information about the compatibility, cost, and technical issues related to infrastructure.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/4/">read more</a>
 									<hr class="underline">
 								</div>
@@ -576,13 +611,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 40 CRM4EV – Critical Raw Materials for Electric Vehicles</a>
 									<div class="task-short-desc">With this projected mass deployment of EVs, attention is drawn to potential supply chain issues for several Critical Raw Materials (CRMs) needed for EV manufacturing. </div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/40/">read more</a>
 									<hr class="underline">
 								</div>
@@ -590,13 +626,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 41 Electric Freight Vehicles</a>
 									<div class="task-short-desc">The Task's main objectives are to monitor progress and review relevant aspects for a successful introduction of electric freight vehicles (EFV) into the market. </div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/41/">read more</a>
 									<hr class="underline">
 								</div>
@@ -604,13 +641,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Closed</p>
 									<a class="task-title"> Task 42 Scaling Up EV Markets and EV City Casebook</a>
 									<div class="task-short-desc">Task 42 aims to collect learning and best practice from existing and planned large scale deployments of EVs around the world. </div>
-									<h4 class="task-status-meta Closed" >Status: Closed</h4>
+									<h4 class="task-status-meta" >Status: Closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/42/">read more</a>
 									<hr class="underline">
 								</div>
@@ -618,13 +656,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 43 Vehicle/Grid Integration </a>
 									<div class="task-short-desc">Analysing the challenges identified on the integration of the electric vehicles into our electricity and transport system in order to improve economic and environmental performance. </div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/43/">read more</a>
 									<hr class="underline">
 								</div>
@@ -632,13 +671,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> 44 Impact of Connectivity and Automation on Electrified Vehicle Usage and Benefits </a>
 									<div class="task-short-desc"></div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/44/">read more</a>
 									<hr class="underline">
 								</div>
@@ -646,13 +686,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu Ongoing">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">Ongoing</p>
 									<a class="task-title"> Task 45 Electrified Roadways (E-roads)</a>
 									<div class="task-short-desc">To develop a greater global understanding and awareness of electrified roadways (E-Roads), as well as related technologies developed and deployment activities in the participating countries.</div>
-									<h4 class="task-status-meta Ongoing" >Status: Ongoing</h4>
+									<h4 class="task-status-meta" >Status: Ongoing</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/45/">read more</a>
 									<hr class="underline">
 								</div>
@@ -660,13 +701,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 5 Batteries & Supercapacitors</a>
 									<div class="task-short-desc">it focused its efforts on those areas where governments are the main actors in research, namely in pre-competitive exploratory research.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/5/">read more</a>
 									<hr class="underline">
 								</div>
@@ -674,13 +716,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 7 Hybrid Vehicles</a>
 									<div class="task-short-desc">it focused its efforts on those areas where governments are the main actors in research, namely in pre-competitive exploratory research.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/7/">read more</a>
 									<hr class="underline">
 								</div>
@@ -688,13 +731,14 @@
 						</div>
 						</li>
 						
-						<li>
-						<div class="menu closed">
+						<li class="tasks">
+						<div>
 							<div class="row">
 								<div>
+									<p class="type" style="display: none;">closed</p>
 									<a class="task-title"> Task 9 Clean City Vehicles </a>
 									<div class="task-short-desc">The purpose of this task was to exchange information among cities around the globe on how to reduce air pollution from road traffic.</div>
-									<h4 class="task-status-meta closed" >Status: closed</h4>
+									<h4 class="task-status-meta" >Status: closed</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="/tasks/9/">read more</a>
 									<hr class="underline">
 								</div>
@@ -708,6 +752,26 @@
 			</div>
 			</div>
 		</section>
+		<script src="/assets/js/jquery-2.1.3.min.js"></script>
+		<script>
+
+			$("#task-filter").change(function () {
+			var number = $("[name='taskstatus']:checked").val();
+			console.log(number);
+			//var letter = $("[name='thickness']:checked").val();
+	
+			//if (!thickness || !thickness) return;
+			var $items = $(".sorting-type .tasks");
+			if (number === "all") {
+				$items.show();
+			} else {
+				$items.hide();
+				$items.filter(function (index) {
+					return $(this).find('.type').text() === number;
+				}).show();
+			}
+		});
+		</script>
 
     
 

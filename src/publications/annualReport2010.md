@@ -2,7 +2,7 @@
 src: "2010_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Advances"
 title: "Annual Report 2010"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2010_annual_report.png"
 id: "k"

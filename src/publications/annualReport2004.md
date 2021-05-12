@@ -2,7 +2,7 @@
 src: "2004_annual_report.pdf"
 description: "Progress Towards Sustainable Transportation"
 title: "Annual Report 2004"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2004_annual_report.png"
 id: "p"

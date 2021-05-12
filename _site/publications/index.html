@@ -94,9 +94,10 @@
 
 					<div class="col-sm-4 mb-sm-20">
 						<select class="form-control filtering" onchange="hideelementsTasks()" id="task-filter">
-							<option>Annual Report</option>
-							<option>Misc</option>
-							<option>All</option>
+							<option value="" disabled selected hidden>Filter by Publication type</option>
+							<option name="publicationType" value="annualReport">Annual Report</option>
+							<option name="publicationType" value="Misc">Misc</option>
+							<option name="publicationType" value="all">All</option>
 						</select>
 					</div>
 					<div class="col-sm-3 mb-sm-20">
@@ -115,268 +116,14 @@
 			<div class="container">
 
 				<div class="row multi-columns-row">
-                    <ul id="publications">
+                    <ul id="publications" class="sorting-type">
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2000_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2000/"> Annual Report 2000</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2004_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2004/"> Annual Report 2004</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2006_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2006/"> Annual Report 2006</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2007_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2007/"> Annual Report 2007</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2008_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2008/"> Annual Report 2008</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2009_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2009/"> Annual Report 2009</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2010_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2010/"> Annual Report 2010</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2011_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2011/"> Annual Report 2011</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2012_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2012/"> Annual Report 2012</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2013_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2013/"> Annual Report 2013</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2014_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2014/"> Annual Report 2014</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2015_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2015/"> Annual Report 2015</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2016_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2016/"> Annual Report 2016</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2017_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2017/"> Annual Report 2017</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2018_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2018/"> Annual Report 2018</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2019_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2019/"> Annual Report 2019</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/2020_annual_report.png" alt="Open the Report">
-										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2020/"> Annual Report 2020</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Shop item end -->
-						</li>
-						 
-							<li style="list-style-type: none; position: relative;">        
-							<!-- Shop item start -->
-							<div class="col-sm-6 col-md-3 col-lg-3">
-								<div class="shop-item" style="padding: 0;">
-									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/EV_City_Casebook_2021.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/EV_City_Casebook_2021/"> EV City Casebook 2021</a>
@@ -387,11 +134,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/EV_Ecosystems.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/EV_Ecosystems/"> EV Ecosystems</a>
@@ -402,11 +150,28 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">newsletter</p>
+										<img src="/assets/images/thumbnails/HEVTCP-Newsletter-Dec20.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/HEVTCP-Newsletter-Dec20/"> HEV-TCP Newsletter December 2020</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/task12_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task12_Final_Report/"> Final report of task 12</a>
@@ -417,11 +182,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task20_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task20_Final_Report/"> Final Report of Task Twenty</a>
@@ -432,11 +198,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task24_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task24_Final_Report/"> Final report of task 24</a>
@@ -447,11 +214,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task26_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task26_Final_Report/"> Final Report of Task Twenty Six</a>
@@ -462,11 +230,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task27_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task27_Final_Report/"> Final Report of Task Twenty Seven</a>
@@ -477,11 +246,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task28_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task28_Final_Report/"> Final Report of Task Twenty Eight</a>
@@ -492,11 +262,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task41_Brochure.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task41_Brochure/"> Task 41 Full Description</a>
@@ -507,11 +278,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task_33_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task_31_Final_report/"> Final Report of Task Thirty One</a>
@@ -522,11 +294,12 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
+										<p class="type" style="display: none;">Misc</p>
 										<img src="/assets/images/thumbnails/Task_33_Final_Report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
 											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/Task_33_Final_report/"> Final Report of Task Thirty Three</a>
@@ -537,14 +310,271 @@
 							<!-- Shop item end -->
 						</li>
 						 
-							<li style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;">        
 							<!-- Shop item start -->
 							<div class="col-sm-6 col-md-3 col-lg-3">
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
-										<img src="/assets/images/thumbnails/HEVTCP-Newsletter-Dec20.png" alt="Open the Report">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2000_annual_report.png" alt="Open the Report">
 										<div class="shop-item-detail" style="padding: 0;">
-											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/HEVTCP-Newsletter-Dec20/"> HEV-TCP Newsletter December 2020</a>
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2000/"> Annual Report 2000</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2004_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2004/"> Annual Report 2004</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2006_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2006/"> Annual Report 2006</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2007_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2007/"> Annual Report 2007</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2008_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2008/"> Annual Report 2008</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2009_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2009/"> Annual Report 2009</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2010_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2010/"> Annual Report 2010</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2011_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2011/"> Annual Report 2011</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2012_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2012/"> Annual Report 2012</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2013_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2013/"> Annual Report 2013</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2014_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2014/"> Annual Report 2014</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2015_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2015/"> Annual Report 2015</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2016_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2016/"> Annual Report 2016</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2017_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2017/"> Annual Report 2017</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2018_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2018/"> Annual Report 2018</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2019_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2019/"> Annual Report 2019</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Shop item end -->
+						</li>
+						 
+							<li class="publications" style="list-style-type: none; position: relative;">        
+							<!-- Shop item start -->
+							<div class="col-sm-6 col-md-3 col-lg-3">
+								<div class="shop-item" style="padding: 0;">
+									<div class="shop-item-image">
+										<p class="type" style="display: none;">annualReport</p>
+										<img src="/assets/images/thumbnails/2020_annual_report.png" alt="Open the Report">
+										<div class="shop-item-detail" style="padding: 0;">
+											<a class="searching btn btn-round btn-b" style="margin-left: 0;" href="/publications/annualReport2020/"> Annual Report 2020</a>
 										</div>
 									</div>
 								</div>
@@ -577,6 +607,49 @@
             }
         }
     }
+	</script>
+	<script src="/assets/js/jquery-2.1.3.min.js"></script>
+
+<!-- 
+	<script>
+		$('#btnFilter').click(function() {
+		var val1 = $('[name=Option1]:checked').val();
+
+		if ((val1 == "all")){
+
+		} else{
+		$('li').each(function() {
+			var src = $(this).find('.annualreport').children('div');
+			var src = $(this).find('.annualreport').children('div');
+
+				//alert(val2);
+			
+			if ((typ == val1 || val1 == 'A' ) && (src == val2 || val2 == 'A' )){
+				$(this).show();
+			} else {
+				$(this).hide();
+			}
+		});		
+		}
+		});
+	</script> -->
+	<script>
+		$("#task-filter").change(function () {
+        var number = $("[name='publicationType']:checked").val();
+		console.log(number);
+        //var letter = $("[name='thickness']:checked").val();
+
+        //if (!thickness || !thickness) return;
+        var $items = $(".sorting-type .publications");
+        if (number === "all") {
+            $items.show();
+        } else {
+            $items.hide();
+            $items.filter(function (index) {
+                return $(this).find('.type').text() === number;
+            }).show();
+        }
+    });
 	</script>
     
 

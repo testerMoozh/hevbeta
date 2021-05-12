@@ -2,7 +2,7 @@
 src: "2014_annual_report.pdf"
 description: "Hybrid and Electric Vehicles; the Electric Drive Accelerates"
 title: "Annual Report 2014"
-type: "annual report"
+type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2014_annual_report.png"
 id: "g"
