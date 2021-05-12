@@ -2,8 +2,9 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Denmark"
-onGoings: [Task 1, Task 38, Task 43]
-completedTasks: [Task 10, Task 15, Task 24, Task 26, Task 28, Task 31, Task 42]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/dk.svg"
+onGoings: [1, 38, 43]
+completedTasks: [10, 15, 24, 26, 28, 31, 42]
 BEV: "[14232, 5523, 1545, 699, 1314, 4311, 1567, 534, 529, 463, 49]"
 PHEV: "[18246, 3885, 3127, 621, 572, 417, 90, 10, 12, 0, 2]"
 HEV: "[9222, 9822, 8666, 7104, 5759, 2244, 1212, 1085, 380, 183, 78]"

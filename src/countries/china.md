@@ -2,7 +2,8 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "China"
-onGoings: [Task 1]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/cn.svg"
+onGoings: [1]
 completedTasks: []
 BEV: "[1000000, 834000, 788000, 468000, 257000, 146719, null, null, null, null, null]"
 PHEV: "[247000, 226000, 265000, 111000, 79000, 60663, null, null, null, null, null]"

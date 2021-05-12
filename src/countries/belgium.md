@@ -1,6 +1,7 @@
 ---
 layout: "layouts/country-layout.njk"
 name: "Belgium"
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/be.svg"
 delegateName: "Carlo Mol"
 delegateAffiliation: "VITO"
 delegateEmail: "carlo.mol@vito.be"
@@ -14,8 +15,8 @@ contactEmail: "carlo.mol@vito.be"
 contactNameTwo: "​​​​​​Daan Six"
 contactAffiliationTwo: "VITO"
 contactEmailTwo: "daan.six@vito.be"
-onGoings: [Task 1, Task 23, Task 39, Task 43]
-completedTasks: [Task 7, Task 10, Task 12, Task 15, Task 24, Task 28]
+onGoings: [1, 23, 39, 43]
+completedTasks: [7, 10, 12, 15, 24, 28]
 publicationLink: "/publications/annualReport2020"
 
 ---

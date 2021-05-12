@@ -2,8 +2,9 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Republic of Korea"
-onGoings: [Task 1, Task 30, Task 32, Task 40, Task 43]
-completedTasks: [Task 15, Task 25, Task 27, Task 28]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/ss.svg"
+onGoings: [1, 30, 32, 40, 43]
+completedTasks: [15, 25, 27, 28]
 BEV: "[null, null, null, null, 4583, null, null, 614, null, null, null]"
 PHEV: "[null, null, null, null, 313, null, null, null, null, null, null]"
 HEV: "[null, null, null, null, 60431, null, null, 29060, null, null, null]"

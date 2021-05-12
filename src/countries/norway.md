@@ -2,7 +2,8 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Norway"
-onGoings: [Task 1, Task 34, Task 45]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/no.svg"
+onGoings: [1, 34, 45]
 completedTasks: []
 BEV: "[76800, 60246, 46092, 33021, 24277, 25785, 18091, 7882, 3950, 1886, null]"
 PHEV: "[28904, 19299, 26546, 29236, 20604, 7916, 1743, 347, 343, null, null]"

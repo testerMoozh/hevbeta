@@ -2,8 +2,9 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "United Kingdom"
-onGoings: [Task 1, Task 40, Task 41, Task 43]
-completedTasks: [Task 5, Task 10, Task 14, Task 15, Task 18, Task 22, Task 26, Task 27, Task 28, Task 36, Task 42]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg"
+onGoings: [1, 40, 41, 43]
+completedTasks: [5, 10, 14, 15, 18, 22, 26, 27, 28, 36, 42]
 BEV: "[null, 4939, 1540, 16368, 10509, null, 6725, null, null, null, null]"
 PHEV: "[null, 4480, 3679, 3909, 27403, null, 7978, null, null, null, null]"
 HEV: "[4941, 3676, 66431, 51229, null, 33380, null, null, null, null]"

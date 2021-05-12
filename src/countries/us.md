@@ -1,9 +1,10 @@
 ---
 layout: "layouts/country-layout.njk"
 tags: "countries"
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"
 name: "United States of America "
-onGoings: [Task 1, Task 30, Task 34, Task 37, Task 38, Task 40, Task 44, Task 45]
-completedTasks: [Task 4, Task 5, Task 7, Task 10, Task 11, Task 12, Task 13, Task 14, Task 15, Task 16, Task 17, Task 18, Task 19, Task 20, Task 21, Task 22, Task 24, Task 25, Task 26, Task 28, Task 29]
+onGoings: [1, 30, 34, 37, 38, 40, 44, 45]
+completedTasks: [4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 28, 29]
 BEV: "[null, 216030, 212723, 80505, 86731, 72303, 63325, 47559, 14251, null, null]"
 PHEV: "[null, 76000, 114683, 77949, 71885, 42959, 55357, 49043, 38584, null, null]"
 HEV: "[null, null, null, 253871, 346949, 352636, 452172, 495685, 434645, null, null]"

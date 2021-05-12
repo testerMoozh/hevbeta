@@ -2,8 +2,9 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Spain"
-onGoings: [Task 1, Task 23, Task 30, Task 43]
-completedTasks: [Task 15, Task 18, Task 20, Task 26, Task 33]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/es.svg"
+onGoings: [1, 23, 30, 43]
+completedTasks: [15, 18, 20, 26, 33]
 BEV: "[18624, 10850, 6602, 4206, 2148, 1172, 968, 819, 437, 220, 147]"
 PHEV: "[23994, 8316, 6257, 3689, 1668, 645, 440, 64, 49, 8, 0]"
 HEV: "[139609, 109421, 76099, 55482, 30602, 7759, 8128, 10222, 10060, 10342, 7190]"

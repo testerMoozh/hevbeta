@@ -2,8 +2,9 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Sweden"
-onGoings: [Task 1, Task 34, Task 40]
-completedTasks: [Task 4, Task 7, Task 10, Task 14, Task 15, Task 16, Task 26, Task 36]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/se.svg"
+onGoings: [1, 34, 40]
+completedTasks: [4, 7, 10, 14, 15, 16, 26, 36]
 BEV: "[28097, 15795, 7147, 4359, 2950, 2916, 1266, 452, 247, null, null]"
 PHEV: "[66134, 33123, 21811, 15986, 10460, 5752, 3411, 930, 681, null, null]"
 HEV: "[47806, 24907, 21020, 14467, 13760, 8769, 7053, 5349, null, null, null]"

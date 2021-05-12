@@ -2,8 +2,9 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Turkey"
-onGoings: [Task 1, Task 23, Task 30, Task 41]
-completedTasks: [Task 10, Task 15, Task 27]
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/tr.svg"
+onGoings: [1, 23, 30, 41]
+completedTasks: [10, 15, 27]
 BEV: "[null, 222, 155, 76, 54, 120, null, null, null, null, null]"
 PHEV: "[null, null, null, null, null, null, null, null, null, null, null]"
 HEV: "[null, 11975, 3899, 4507, 1038, 974, null, null, null, null, null]"
