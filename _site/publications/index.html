@@ -577,18 +577,6 @@
             }
         }
     }
-
-    function hideelementsTasks(){
-    d = document.getElementById("task-filter").value;
-	if (d = "All"){
-		document.getElementsByTagName("li").style.display = "block";
-	} else {
-    var divsToHide = document.getElementsByClassName(d); //divsToHide is an array
-    for(var i = 0; i < divsToHide.length; i++){
-        divsToHide[i].style.display = "none"; // depending on what you're doing
-    }
-    }   
-	}
 	</script>
     
 
