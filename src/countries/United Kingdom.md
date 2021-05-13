@@ -8,12 +8,12 @@ completedTasks: [5, 10, 14, 15, 18, 22, 26, 27, 28, 36, 42]
 BEV: "[null, 4939, 1540, 16368, 10509, null, 6725, null, null, null, null]"
 PHEV: "[null, 4480, 3679, 3909, 27403, null, 7978, null, null, null, null]"
 HEV: "[4941, 3676, 66431, 51229, null, 33380, null, null, null, null]"
-delegateName: "​Tim Ward"
-delegateAffiliation: "Department for Transport"
-delegateEmail: "tim.ward@olev.gsi.gov.uk"
 contactName: "Tim Ward"
 contactAffiliation: "Department for Transport"
 contactEmail: "tim.ward@olev.gsi.gov.uk"
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: "/publications/annualReport2020"
 
 

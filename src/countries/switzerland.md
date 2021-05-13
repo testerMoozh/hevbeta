@@ -8,12 +8,12 @@ completedTasks: [2, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 24, 26, 28]
 BEV: "[ null, 12991, 5110, 4773, 3303, 3265, 1658, 1176, 525, null, null]"
 PHEV: "[null, 4220, 4359, 3402, 2832, 2331, 725, 394, 63, null, null]"
 HEV: "[ null, 21629, 11272, 8410, 7662, 6118, 6095, 6709, 6516, null, null]"
-delegateName: "​Luca Castiglioni"
-delegateAffiliation: "Swiss Federal Office of Energy (SFOE)"
-delegateEmail: " luca.castiglioni.bfe@admin.ch"
-contactName: "Stephan Walter"
+contactName: "​Luca Castiglioni"
 contactAffiliation: "Swiss Federal Office of Energy (SFOE)"
-contactEmail: "stephan.walter@bfe.admin.ch"
+contactEmail: " luca.castiglioni.bfe@admin.ch"
+contactNameTwo: "Stephan Walter"
+contactAffiliationTwo: "Swiss Federal Office of Energy (SFOE)"
+contactEmailTwo: "stephan.walter@bfe.admin.ch"
 publicationLink: "/publications/annualReport2020"
 
 

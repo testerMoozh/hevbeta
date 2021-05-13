@@ -8,12 +8,12 @@ completedTasks: []
 BEV: "[76800, 60246, 46092, 33021, 24277, 25785, 18091, 7882, 3950, 1886, null]"
 PHEV: "[28904, 19299, 26546, 29236, 20604, 7916, 1743, 347, 343, null, null]"
 HEV: "[null, 19241, 16323, null, null, null, null, null, null, null, null]"
-delegateName: "​Andreas Bratland"
-delegateAffiliation: "Department for Energy Research"
-delegateEmail: "abr@rcn.no"
 contactName: "Andreas Bratland"
 contactAffiliation: "Department for Energy Research"
 contactEmail: "abr@rcn.no"
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: "/publications/annualReport2020"
 
 

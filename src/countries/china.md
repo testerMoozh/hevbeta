@@ -8,12 +8,12 @@ completedTasks: []
 BEV: "[1000000, 834000, 788000, 468000, 257000, 146719, null, null, null, null, null]"
 PHEV: "[247000, 226000, 265000, 111000, 79000, 60663, null, null, null, null, null]"
 HEV: "[523371, 381588, 260380, 182549, 107080, 38803, 32120, 34709, 23697, 5596, 3734]"
-delegateName: "​Rujie Yu"
-delegateAffiliation: "China Automotive Technology & Research Center (CATARC)"
-delegateEmail: "yurujie@catarc.ac.cn"
-contactName: "Rujie Yu"
+contactName: "​Rujie Yu"
 contactAffiliation: "China Automotive Technology & Research Center (CATARC)"
 contactEmail: "yurujie@catarc.ac.cn"
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: "/publications/annualReport2020"
 
 

@@ -8,12 +8,12 @@ completedTasks: [4, 7, 10, 15, 21]
 BEV: "[32485, 10663, 4997, 1967, 1375, 1460, 1101, 864, 520, 117, 40]"
 PHEV: "[27407, 6471, 4734, 2646, 1317, 891, 406, 309, 139, 6, 0]"
 HEV: "[221893, 109789, 81892, 63398, 37128, 25661, 20762, 14930, 6774, 5238, 5009]"
-delegateName: "​Francesco Vellucci"
-delegateAffiliation: "ENEA Casaccia Research Centre DTE-PCU-STMA"
-delegateEmail: "francesco.vellucci@enea.it"
 contactName: "Francesco Vellucci"
 contactAffiliation: "ENEA Casaccia Research Centre DTE-PCU-STMA"
 contactEmail: "francesco.vellucci@enea.it"
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: "/publications/annualReport2020"
 
 

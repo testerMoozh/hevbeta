@@ -8,12 +8,12 @@ completedTasks: [10, 15, 27]
 BEV: "[null, 222, 155, 76, 54, 120, null, null, null, null, null]"
 PHEV: "[null, null, null, null, null, null, null, null, null, null, null]"
 HEV: "[null, 11975, 3899, 4507, 1038, 974, null, null, null, null, null]"
-delegateName: "Not Available​"
-delegateAffiliation: ""
-delegateEmail: ""
 contactName: "Not Available"
 contactAffiliation: ""
 contactEmail: ""
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: ""
 
 

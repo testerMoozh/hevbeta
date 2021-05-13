@@ -8,12 +8,12 @@ completedTasks: [2, 4, 5, 7, 10, 12, 15, 24, 26, 27, 28, 31, 42]
 BEV: "[72945, 61303, 25065, 8116, 3737, 2543, 2664, 2251, 786, 886, 290]"
 PHEV: "[15396, 5090, 4094, 1093, 20740, 41226, 12425, 20164, 4331, 15, 11]"
 HEV: "[47255, 28725, 28109, 23459, 10548, 13752, 10341, 18356, 16091, 14937, 15285]"
-delegateName: "​Sonja Munnix"
-delegateAffiliation: "Netherlands Enterprise Agency"
-delegateEmail: "sonja.munnix@rvo.nl"
 contactName: "Sonja Munnix"
 contactAffiliation: "Netherlands Enterprise Agency"
 contactEmail: "sonja.munnix@rvo.nl"
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: "/publications/annualReport2020"
 
 

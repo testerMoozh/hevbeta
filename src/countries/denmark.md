@@ -8,12 +8,12 @@ completedTasks: [10, 15, 24, 26, 28, 31, 42]
 BEV: "[14232, 5523, 1545, 699, 1314, 4311, 1567, 534, 529, 463, 49]"
 PHEV: "[18246, 3885, 3127, 621, 572, 417, 90, 10, 12, 0, 2]"
 HEV: "[9222, 9822, 8666, 7104, 5759, 2244, 1212, 1085, 380, 183, 78]"
-delegateName: "​Michael Rask"
-delegateAffiliation: "company Heliac"
-delegateEmail: "mir@heliac.dk"
-contactName: "Michael Rask"
+contactName: "​Michael Rask"
 contactAffiliation: "company Heliac"
 contactEmail: "mir@heliac.dk"
+contactNameTwo: ""
+contactAffiliationTwo: ""
+contactEmailTwo: ""
 publicationLink: "/publications/annualReport2020"
 
 
