@@ -54,14 +54,14 @@ pageTitle: "About"
 		<section class="module">	
 			<div class="container">
 				<div class="task-col">
-					<ul class="sorting-type">
+					<ul id="tasks" class="sorting-type">
 						{% for task in collections.tasks %}
 						<li class="tasks">
 						<div>
 							<div class="row">
 								<div>
 									<p class="type" style="display: none;">{{ task.data.status }}</p>
-									<a class="task-title" id="task-title"> Task {{ task.data.number }} {{ task.data.title }}</a>
+									<a class="task-title searching" id="task-title"> Task {{ task.data.number }} {{ task.data.title }}</a>
 									<div class="task-short-desc">{{ task.data.shortDescription }}</div>
 									<h4 class="task-status-meta" >Status: {{ task.data.status }}</h4>
 									<a class="task-read-more" style="display: flex; flex: flex-start; text-transform: uppercase; font-weight: bold; font-size: 1.3em; color: var(--sixth-color);" href="{{ task.url }}">read more</a>
@@ -77,6 +77,24 @@ pageTitle: "About"
 			</div>
 			</div>
 		</section>
+		<script>
+			function workingtaskSearch() {
+				var input, filter, ul, li, a, i, txtValue;
+				input = document.getElementById("myInput");
+				filter = input.value.toUpperCase();
+				ul = document.getElementById("tasks");
+				li = ul.getElementsByTagName("li");
+				for (i = 0; i < li.length; i++) {
+					a = li[i].getElementsByClassName("searching")[0];
+					txtValue = a.textContent || a.innerText;
+					if (txtValue.toUpperCase().indexOf(filter) > -1) {
+						li[i].style.display = "block";
+					} else {
+						li[i].style.display = "none";
+					}
+				}
+			}
+		</script>
 		<script src="/assets/js/jquery-2.1.3.min.js"></script>
 		<script>
 
