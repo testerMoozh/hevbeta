@@ -5,6 +5,6 @@ title: "Annual Report 2006"
 type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2006_annual_report.png"
-id: "o"
+id: 24
 ---
 <embed src="/assets/pdfs/{{ src }}" type="application/pdf" style="width: 100%; height: 100%;">

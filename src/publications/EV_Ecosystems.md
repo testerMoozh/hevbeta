@@ -5,6 +5,6 @@ title: "EV Ecosystems"
 type: "Misc"
 tags: "publications"
 thumbnailSrc: "EV_Ecosystems.png"
-id: "s"
+id: 14
 ---
 <embed src="/assets/pdfs/{{ src }}" type="application/pdf" style="width: 100%; height: 100%;">

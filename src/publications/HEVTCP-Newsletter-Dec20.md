@@ -7,6 +7,6 @@ tags:
     - "publications"
     - "newsletters"  
 thumbnailSrc: "HEVTCP-Newsletter-Dec20.png"
-id: "o"
+id: 3
 ---
 <embed src="/assets/pdfs/{{ src }}" type="application/pdf" style="width: 100%; height: 100%;">

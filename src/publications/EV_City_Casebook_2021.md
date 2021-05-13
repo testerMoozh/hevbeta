@@ -5,6 +5,6 @@ title: "EV City Casebook"
 type: "Misc"
 tags: "publications"
 thumbnailSrc: "EV_City_Casebook_2021.png"
-id: "r"
+id: 1
 ---
 <embed src="/assets/pdfs/{{ src }}" type="application/pdf" style="width: 100%; height: 100%;">

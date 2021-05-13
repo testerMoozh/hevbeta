@@ -6,6 +6,6 @@ type: "annualReport"
 tags: "publications"
 thumbnailSrc: "2020_annual_report.png"
 Date: "2020"
-id: "a"
+id: 2
 ---
 <embed src="/assets/pdfs/{{ src }}" type="application/pdf" style="width: 100%; height: 100%;">

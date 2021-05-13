@@ -58,7 +58,7 @@ pageTitle: "Publications"
 				<div class="pub">
                     <ul id="publications" class="sorting-type">
 						{% for publication in collections.publications %} 
-							<li class="publications" style="list-style-type: none; position: relative;">        
+							<li class="publications" style="list-style-type: none; position: relative;" data-worth="{{ publication.data.id}}" >        
 							<!-- Shop item start -->
 								<div class="shop-item" style="padding: 0;">
 									<div class="shop-item-image">
@@ -80,6 +80,13 @@ pageTitle: "Publications"
 	<!-- Divider -->
 	<hr class="divider-d">
 	<!-- Divider -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$('.sorting-type li').sort(function(a, b) {
+		  return $(a).data('worth') - $(b).data('worth');
+		}).appendTo('.sorting-type');
+	  
+	</script>	
 	<script>
     function workingpublicationSearch() {
         var input, filter, ul, li, a, i, txtValue;
@@ -98,8 +105,6 @@ pageTitle: "Publications"
         }
     }
 	</script>
-	<script src="/assets/js/jquery-2.1.3.min.js"></script>
-
 	<script>
 		$("#task-filter").change(function () {
         var number = $("[name='publicationType']:checked").val();

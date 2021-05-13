@@ -5,6 +5,6 @@ title: "Task 24 Report"
 type: "Misc"
 tags: "publications"
 thumbnailSrc: "Task24_Final_Report.png"
-id: "x"
+id: 10
 ---
 <embed src="/assets/pdfs/{{ src }}" type="application/pdf" style="width: 100%; height: 100%;">
