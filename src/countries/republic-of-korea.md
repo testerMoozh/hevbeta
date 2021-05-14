@@ -2,7 +2,7 @@
 layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Republic of Korea"
-flag: "https://lipis.github.io/flag-icon-css/flags/4x3/ss.svg"
+flag: "https://lipis.github.io/flag-icon-css/flags/4x3/kr.svg"
 onGoings: [1, 30, 32, 40, 43]
 completedTasks: [15, 25, 27, 28]
 BEV: "[null, null, null, null, 4583, null, null, 614, null, null, null]"
