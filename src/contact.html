@@ -59,7 +59,7 @@ pageTitle: "Contact Us"
 				</div>
 				<div class="contact-grid-wrapper auto">
 					{% for country in collections.countries %}
-					<div class="contacts" data-worth="{{ country.data.name}}">
+					<div class="contacts count-list" data-worth="{{ country.data.name}}">
 						<h1>{{ country.data.name }}</h1>
 						<p>{{ country.data.contactName }}</p>
 						<p>{{ country.data.contactAffiliation }}</p>                    
@@ -94,8 +94,21 @@ pageTitle: "Contact Us"
 			$('.task-wrapper div').sort(function(a, b) {
 			  return $(a).data('worth') - $(b).data('worth');
 			}).appendTo('.task-wrapper');
-		  
-			$('.auto div').sort(function(a, b) {
-			  return $(a).data('worth') < $(b).data('worth');
-			}).appendTo('.auto');
+
+
+
+			$(".auto .count-list").sort(function (a, b) {
+				if ( ($(a).attr("data-worth").toLowerCase() > $(b).attr("data-worth").toLowerCase()) )  { 
+					return 1;
+				} else if ( ($(a).attr("data-worth").toLowerCase() == $(b).attr("data-worth").toLowerCase()) ){
+					return 0;
+				} else {
+					return -1;
+				}
+			}).each(function () {
+				var elem = $(this);
+				elem.remove();
+				$(elem).appendTo('.auto');
+			});
 		</script>
+	
