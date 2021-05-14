@@ -8,7 +8,7 @@ completedTasks: [2, 4, 5, 10, 12, 15, 28, 33, 36, 42]
 BEV: "[36912, 35937, 22660, 9838, 5130, 2378, 2825, 1641, 621, null, null]"
 PHEV: "[14464, 20191, 21490, 8730, 5930, 2579, 2241, 1480, 1399, null, null]"
 HEV: "[43375, 47231, 27770, 24962, 22788, 17238, 20762, 22633, 21611, null, null]"
-contacteName: "​René-Pierre Allard"
+contactName: "​René-Pierre Allard"
 contactAffiliation: "Natural Resources Canada"
 contactEmail: "rene-pierre.allard@canada.ca"
 contactNameTwo: "​​​​​​Carol Burelle"

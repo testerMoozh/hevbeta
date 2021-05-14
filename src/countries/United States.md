@@ -11,7 +11,7 @@ HEV: "[null, null, null, 253871, 346949, 352636, 452172, 495685, 434645, null, n
 contactName: "​David Howell"
 contactAffiliation: "US Department of Energy"
 contactEmail: "david.howell@ee.doe.gov"
-contactNameTwo: "​​​​​​Juan Larrazábal "
+contactNameTwo: "​​​​​​Stephen Boyd "
 contactAffiliationTwo: "US Department of Energy"
 contactEmailTwo: "steven.boyd@ee.doe.gov"
 publicationLink: "/publications/annualReport2020"

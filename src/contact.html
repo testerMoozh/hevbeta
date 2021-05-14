@@ -56,9 +56,10 @@ pageTitle: "Contact Us"
 						<p>Ulsan University, Republic of Korea </p>                    
 						<a>otlim@ulsan.ac.kr</a>                    
 					</div>
+				</div>
+				<div class="contact-grid-wrapper auto">
 					{% for country in collections.countries %}
-
-					<div class="contacts">
+					<div class="contacts" data-worth="{{ country.data.name}}">
 						<h1>{{ country.data.name }}</h1>
 						<p>{{ country.data.contactName }}</p>
 						<p>{{ country.data.contactAffiliation }}</p>                    
@@ -68,9 +69,7 @@ pageTitle: "Contact Us"
 						<p>{{ country.data.contactAffiliationTwo }}</p>                    
 						<a>{{ country.data.contactEmailTwo }}</a>                     
 					</div>
-					</li>	
 					{% endfor %}
-				</ul>
 				</div>
 			</div>
 			<div class="container">
@@ -96,4 +95,7 @@ pageTitle: "Contact Us"
 			  return $(a).data('worth') - $(b).data('worth');
 			}).appendTo('.task-wrapper');
 		  
+			$('.auto div').sort(function(a, b) {
+			  return $(a).data('worth') > $(b).data('worth');
+			}).appendTo('.auto');
 		</script>
