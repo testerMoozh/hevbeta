@@ -1,8 +1,8 @@
 ---
 src: "EV_Ecosystems.pdf"
 description: "Future of Markets for Electric Vehicles"
-title: "EV Ecosystems"
-type: "Misc"
+title: "Task 18 Report"
+type: "Task-Final-Report"
 tags: "publications"
 thumbnailSrc: "EV_Ecosystems.png"
 id: 14

@@ -3,7 +3,7 @@ layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "Canada"
 flag: "https://lipis.github.io/flag-icon-css/flags/4x3/ca.svg"
-onGoings: [1, 30, 34, 43]
+onGoings: [1, 16, 30, 34, 38, 39, 43]
 completedTasks: [2, 4, 5, 10, 12, 15, 28, 33, 36, 42]
 BEV: "[36912, 35937, 22660, 9838, 5130, 2378, 2825, 1641, 621, null, null]"
 PHEV: "[14464, 20191, 21490, 8730, 5930, 2579, 2241, 1480, 1399, null, null]"

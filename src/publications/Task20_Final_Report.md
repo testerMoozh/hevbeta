@@ -2,7 +2,7 @@
 src: "Task20_Final_Report.pdf"
 description: "Final Report of Task Twenty"
 title: "Task 20 Report"
-type: "Misc"
+type: "Task-Final-Report"
 tags: "publications"
 thumbnailSrc: "Task20_Final_Report.png"
 id: 12

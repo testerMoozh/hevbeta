@@ -1,8 +1,8 @@
 ---
 src: "EV_City_Casebook_2021.pdf"
 description: "EV City Casebook"
-title: "EV City Casebook"
-type: "Misc"
+title: "Task 42 Report"
+type: "Task-Final-Report"
 tags: "publications"
 thumbnailSrc: "EV_City_Casebook_2021.png"
 id: 1

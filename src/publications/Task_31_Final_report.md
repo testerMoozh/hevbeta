@@ -2,7 +2,7 @@
 src: "Task_33_Final_Report.pdf"
 description: "Final Report of Task Thirty One"
 title: "Task 31 Report"
-type: "Misc"
+type: "Task-Final-Report"
 tags: "publications"
 thumbnailSrc: "Task_33_Final_Report.png"
 id: 18

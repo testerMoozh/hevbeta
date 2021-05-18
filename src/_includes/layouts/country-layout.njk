@@ -47,14 +47,14 @@
 							<h4 class="meta-delegate-small">{{ contactAffiliationTwo }}</h4>
 							<h4 class="delegate-email">{{contactEmailTwo}}</h4>
 							<h5 class="widget-title font-alt"></h5>
-							<h5 class="meta-title"> ONGOING TASKS</h5>
+							<h5 class="meta-title"> PARTICIPATES IN:</h5>
 							{% for ongoing in onGoings %}
 								<div class="contacts">
 									<a class="meta-task-country-list" href="/tasks/{{ongoing}}"> Task {{ ongoing }}</a>
 								</div>
 							{% endfor %}
 							<h5 class="widget-title font-alt"></h5>
-							<h5 class="meta-title"> COMPLETED TASKS </h5>
+							<h5 class="meta-title"> HAS PARTICIPATED IN: </h5>
 							{% for completedTask  in completedTasks %}
 								<div class="contacts">
 									<a class="meta-task-country-list" href="/tasks/{{completedTask}}"> Task {{ completedTask }}</a>
