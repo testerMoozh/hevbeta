@@ -14,7 +14,7 @@ contactEmail: "peter.kasche@energimyndigheten.se"
 contactNameTwo: "​​​​​​Mikael Fjallström"
 contactAffiliationTwo: "Swedish Energy Agency"
 contactEmailTwo: "mikael.fjallstrom@energimyndigheten.se"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/sweden"
 
 
 ---

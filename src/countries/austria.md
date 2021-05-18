@@ -14,7 +14,7 @@ contactEmail: "andreas.dorda@bmvit.gv.at"
 contactNameTwo: "​​​​​​Walter Mauritsch"
 contactAffiliationTwo: "Austrian Energy Agency"
 contactEmailTwo: "walter.mauritsch@energyagency.at"
-publicationLink: "/publications/annualReport2020"
+publicationLink: "/countriesChapters/austria"
 
 ---
 ## Major Developments in 2020

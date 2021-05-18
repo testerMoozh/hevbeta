@@ -14,7 +14,7 @@ contactEmail: "ariane.rozo@ademe.fr"
 contactNameTwo: "​​​​​​Jérôme Poyet"
 contactAffiliationTwo: "ADEME Service Transports et Mobilité"
 contactEmailTwo: "jerome.poyet@ademe.fr"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/france"
 
 
 ---

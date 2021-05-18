@@ -14,7 +14,7 @@ contactEmail: "david.howell@ee.doe.gov"
 contactNameTwo: "​​​​​​Stephen Boyd "
 contactAffiliationTwo: "US Department of Energy"
 contactEmailTwo: "steven.boyd@ee.doe.gov"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/us"
 
 
 ---

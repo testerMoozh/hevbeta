@@ -14,7 +14,7 @@ contactEmail: "abdulkadir.balikci@tubitak.gov.tr"
 contactNameTwo: "Ahmet Avsar"
 contactAffiliationTwo: "TÜBİTAK"
 contactEmailTwo: "ahmet.avsar@tubitak.gov.tr"
-publicationLink: ""
+publicationLink:  "/countriesChapters/turkey"
 
 
 ---

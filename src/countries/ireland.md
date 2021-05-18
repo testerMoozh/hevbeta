@@ -14,7 +14,7 @@ contactEmail: "graham.brennan@seai.ie"
 contactNameTwo: "​​​​​​Declan Meally"
 contactAffiliationTwo: "Sustainable Energy Authority of Ireland"
 contactEmailTwo: "declan.meally@seai.ie"
-publicationLink: "/publications/annualReport2020"
+publicationLink: "/countriesChapters/ireland"
 
 
 ---

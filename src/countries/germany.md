@@ -14,7 +14,7 @@ contactEmail: "m.laske@fz-juelich.de"
 contactNameTwo: "​​​​​​Stephen Schmid "
 contactAffiliationTwo: "DLR - German Aerospace Center"
 contactEmailTwo: "stephan.schmid@dlr.de"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/germany"
 
 
 ---

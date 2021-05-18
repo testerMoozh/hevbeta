@@ -14,7 +14,7 @@ contactEmail: "mikko.koskue@businessfinland.fi"
 contactNameTwo: ""
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/finland"
 
 
 ---

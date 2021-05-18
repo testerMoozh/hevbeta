@@ -14,7 +14,7 @@ contactEmail: "isabel_delolmo@idae.es"
 contactNameTwo: "​​​​​​Juan Larrazábal "
 contactAffiliationTwo: "IDAE - Institute for the Diversification and Saving of Energy"
 contactEmailTwo: "jlarrazabal@idae.es"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/spain"
 
 
 ---

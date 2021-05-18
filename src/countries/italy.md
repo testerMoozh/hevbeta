@@ -14,7 +14,7 @@ contactEmail: "francesco.vellucci@enea.it"
 contactNameTwo: ""
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/italy"
 
 
 ---

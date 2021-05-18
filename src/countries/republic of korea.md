@@ -14,7 +14,7 @@ contactEmail: "otlim@ulsan.ac.kr"
 contactNameTwo: ""
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/korea"
 
 
 ---

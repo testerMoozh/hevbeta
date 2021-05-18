@@ -14,7 +14,7 @@ contactEmail: "luca.castiglioni.bfe@admin.ch"
 contactNameTwo: "Stephan Walter"
 contactAffiliationTwo: "Swiss Federal Office of Energy (SFOE)"
 contactEmailTwo: "stephan.walter@bfe.admin.ch"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/switzerland"
 
 
 ---

@@ -14,7 +14,7 @@ contactEmail: "abr@rcn.no"
 contactNameTwo: ""
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/norway"
 
 
 ---

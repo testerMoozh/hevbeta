@@ -14,7 +14,7 @@ contactEmail: "mir@heliac.dk"
 contactNameTwo: ""
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/denmark"
 
 
 ---

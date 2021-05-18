@@ -14,7 +14,7 @@ contactAffiliationTwo: ""
 contactEmailTwo: ""
 onGoings: [1, 23, 39, 43]
 completedTasks: [7, 10, 12, 15, 24, 28]
-publicationLink: "/publications/annualReport2020"
+publicationLink: "/countriesChapters/belgium"
 
 ---
 ## Major Developments in 2020 

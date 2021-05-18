@@ -14,7 +14,7 @@ contactEmail: "tim.ward@ozev.gsi.gov.uk"
 contactNameTwo: ""
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/uk"
 
 
 ---

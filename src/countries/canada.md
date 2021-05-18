@@ -14,7 +14,7 @@ contactEmail: "rene-pierre.allard@canada.ca"
 contactNameTwo: "​​​​​​Carol Burelle"
 contactAffiliationTwo: "Natural Resources Canada"
 contactEmailTwo: "cburelle.hev-tcp-chair@outlook.com"
-publicationLink: "/publications/annualReport2020"
+publicationLink:  "/countriesChapters/canada"
 
 
 ---
