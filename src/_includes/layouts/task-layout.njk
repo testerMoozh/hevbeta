@@ -32,7 +32,7 @@
 					
 						<!-- Widget start -->
 							<div class="meta-data-countries">
-								<a class="full-view" href="{{ publicationLink }}">View Full Task Report<span></span></a>
+								<a class="full-view" data-worth="{{ publicationLink }}" href="{{ publicationLink }}">View Full Task Report<span></span></a>
 								<hr>
 								<h4 class="meta-title">status</h4>
 								<h4 class="meta-delegate-small">{{ status }}</h4>
@@ -59,6 +59,12 @@
 					<!-- Sidebar column end -->
 					</div>
 				</section>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+				<script>
+					if ($(".full-view").attr("data-worth") = "") {
+						$(".full-view").css("display", "none");
+					}
+				</script>
 
 {% endblock content %}	
 	
