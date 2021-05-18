@@ -33,7 +33,7 @@
 						<!-- Widget start -->
 							<div class="meta-data-countries">
 								<a class="full-view" data-worth="{{ publicationLink }}" href="{{ publicationLink }}">View Full Task Report<span></span></a>
-								<hr>
+								<hr id="line">
 								<h4 class="meta-title">status</h4>
 								<h4 class="meta-delegate-small">{{ status }}</h4>
 								<hr>
@@ -63,6 +63,8 @@
 				<script>
 					if ($(".full-view").attr("data-worth") == "") {
 						$(".full-view").css("display", "none");
+						$("#line").css("display", "none");
+
 					}
 				</script>
 
