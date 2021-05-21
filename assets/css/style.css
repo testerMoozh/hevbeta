@@ -2083,12 +2083,14 @@ Post
   color: var(--primary-color);
   line-height: 1.7em;
   font-size: 1.3em;
+  margin-bottom: 0.3em;
 }
 
 .post ol li li {
   color: var(--primary-color);
   line-height: 1.3em;
-  font-size: 1.1em;
+  font-size: 1em;
+  margin-bottom: .2em;
 }
 
 .post ul li {

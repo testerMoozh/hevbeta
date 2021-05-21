@@ -8,12 +8,12 @@ completedTasks: [7, 10, 15, 16, 24, 25, 26, 28, 31]
 BEV: "[111127, 42827, 32200, 25983, 21751, 17268, 10560, 8779, 5663, 2630, null]"
 PHEV: "[74592, 18592, 14500, 13458, 7749, 5587, 1519, 843, 666, null, null]"
 HEV: "[168873, 106781, 91700, 76544, 50830, 56030, 42735, 46785, 27730, 13289, null]"
-contactName: "​Ariane Rozo"
-contactAffiliation: "ADEME Service Transports et Mobilité"
-contactEmail: "ariane.rozo@ademe.fr"
-contactNameTwo: "​​​​​​Jérôme Poyet"
+contactNameTwo: "​Ariane Rozo"
 contactAffiliationTwo: "ADEME Service Transports et Mobilité"
-contactEmailTwo: "jerome.poyet@ademe.fr"
+contactEmailTwo: "ariane.rozo@ademe.fr"
+contactName: "​​​​​​Maxime Pasquier"
+contactAffiliation: "ADEME Service Transports et Mobilité"
+contactEmail: "maxime.pasquier@ademe.fr"
 publicationLink:  "/countriesChapters/france"
 
 

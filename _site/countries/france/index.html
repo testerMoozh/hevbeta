@@ -122,13 +122,13 @@
 							<a href="/countriesChapters/france">View Full Country Report</a>
 							<h5 class="widget-title font-alt"></h5>
 							<h5 class="meta-title"> DELEGATE</h5>
-							<h5 class="meta-delegate-small">​Ariane Rozo</h5>
+							<h5 class="meta-delegate-small">​​​​​​Maxime Pasquier</h5>
 							<h5 class="meta-delegate-small"> ADEME Service Transports et Mobilité</h5>
-							<h5 class="delegate-email"> ariane.rozo@ademe.fr</h5>
+							<h5 class="delegate-email"> maxime.pasquier@ademe.fr</h5>
 							<br>
-							<h4 class="meta-delegate-small">​​​​​​Jérôme Poyet</h4>
+							<h4 class="meta-delegate-small">​Ariane Rozo</h4>
 							<h4 class="meta-delegate-small">ADEME Service Transports et Mobilité</h4>
-							<h4 class="delegate-email">jerome.poyet@ademe.fr</h4>
+							<h4 class="delegate-email">ariane.rozo@ademe.fr</h4>
 							<h5 class="widget-title font-alt"></h5>
 							<h5 class="meta-title"> PARTICIPATES IN:</h5>
 							
@@ -307,11 +307,29 @@
         var data = [trace1, trace2, trace3];
         var layout = {
             xaxis: {
-                tickangle: -45
+                tickangle: -45,
+				title: {
+					text: 'Years',
+					font: {
+						family: 'Courier New, monospace',
+						size: 12,
+						color: '#7f7f7f'
+					}
+				}
             },
+			yaxis: {
+				title: {
+				text: 'Passenger Cars (New Registrations)',
+				font: {
+					family: 'Courier New, monospace',
+					size: 12,
+					color: '#7f7f7f'
+				}
+				}
+			},
             barmode: 'group'
             };
-            Plotly.newPlot('myDiv', data, layout);
+            Plotly.newPlot('myDiv', data, layout, {responsive: true}, {displaylogo: false});
     </script>
 
 
@@ -413,14 +431,11 @@
 	<script src="/assets/js/appear.js"></script>
 	<script src="/assets/js/jquery.simple-text-rotator.min.js"></script>
 	<script src="/assets/js/jqBootstrapValidation.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="/assets/js/gmaps.js"></script>
 	<script src="/assets/js/isotope.pkgd.min.js"></script>
 	<script src="/assets/js/imagesloaded.pkgd.js"></script>
 	<script src="/assets/js/jquery.flexslider-min.js"></script>
 	<script src="/assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="/assets/js/jquery.fitvids.js"></script>
-	<script src="/assets/js/smoothscroll.js"></script>
 	<script src="/assets/js/wow.min.js"></script>
 	<script src="/assets/js/owl.carousel.min.js"></script>
 	<script src="/assets/js/contact.js"></script>

@@ -120,11 +120,29 @@
         var data = [trace1, trace2, trace3];
         var layout = {
             xaxis: {
-                tickangle: -45
+                tickangle: -45,
+				title: {
+					text: 'Years',
+					font: {
+						family: 'Courier New, monospace',
+						size: 12,
+						color: '#7f7f7f'
+					}
+				}
             },
+			yaxis: {
+				title: {
+				text: 'Passenger Cars (New Registrations)',
+				font: {
+					family: 'Courier New, monospace',
+					size: 12,
+					color: '#7f7f7f'
+				}
+				}
+			},
             barmode: 'group'
             };
-            Plotly.newPlot('myDiv', data, layout);
+            Plotly.newPlot('myDiv', data, layout, {responsive: true}, {displaylogo: false});
     </script>
 {% endblock content %}	
 	

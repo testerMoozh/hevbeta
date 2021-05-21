@@ -109,32 +109,28 @@
 <p>By leveraging the technical skills and different experiences of the participants, it will be possible to improve the currently available market analyses of VGI technology.</p>
 <p>The challenges to be solved during Task 43 may be divided into:</p>
 <ol>
-<li>
-<p>Charging technology and standards</p>
+<li>Charging technology and standards
 <ul>
 <li>Open standards linked between EV, charger and third parties</li>
 <li>Security for users and global data protection (GDPR)</li>
 <li>Effective and smart access to AC and DC chargers</li>
 </ul>
 </li>
-<li>
-<p>Markets, services and regulation</p>
+<li>Markets, services and regulation
 <ul>
 <li>Regulation: remove barriers to market entry, unity between national energy markets. Global/national</li>
 <li>Operational requirements: operational costs, technical feasibility, operational performances (latencies, frequencies, time-response, etc)</li>
 <li>Business models: Full value chain needs understanding, e.g. impact battery wear</li>
 </ul>
 </li>
-<li>
-<p>Grid infrastructure and planning</p>
+<li>Grid infrastructure and planning
 <ul>
 <li>Educate stakeholders about smart grid and data must be made accessible</li>
 <li>Bring knowledge on VGI together: categorizer + address knowledge gaps</li>
 <li>Provide easily accessible VGI solutions to DSO</li>
 </ul>
 </li>
-<li>
-<p>User engagement</p>
+<li>User engagement
 <ul>
 <li>Convenient: seamless experiences. Bundle transport services (cost of tech + electricity tariff…). Simple requirements from user</li>
 <li>Risk-free: Avoid and or compensate risk. Meet driver requirements + ensure against battery degradation</li>
@@ -164,8 +160,8 @@
 					
 						<!-- Widget start -->
 							<div class="meta-data-countries">
-								<a class="full-view" href="/publications/annualReport2020">View Full Task Report<span></span></a>
-								<hr>
+								<a class="full-view" data-worth="/tasksChapters/43" href="/tasksChapters/43">View Full Task Report<span></span></a>
+								<hr id="line">
 								<h4 class="meta-title">status</h4>
 								<h4 class="meta-delegate-small">Ongoing</h4>
 								<hr>
@@ -239,6 +235,14 @@
 					<!-- Sidebar column end -->
 					</div>
 				</section>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+				<script>
+					if ($(".full-view").attr("data-worth") == "") {
+						$(".full-view").css("display", "none");
+						$("#line").css("display", "none");
+
+					}
+				</script>
 
 
 
@@ -340,14 +344,11 @@
 	<script src="/assets/js/appear.js"></script>
 	<script src="/assets/js/jquery.simple-text-rotator.min.js"></script>
 	<script src="/assets/js/jqBootstrapValidation.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="/assets/js/gmaps.js"></script>
 	<script src="/assets/js/isotope.pkgd.min.js"></script>
 	<script src="/assets/js/imagesloaded.pkgd.js"></script>
 	<script src="/assets/js/jquery.flexslider-min.js"></script>
 	<script src="/assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="/assets/js/jquery.fitvids.js"></script>
-	<script src="/assets/js/smoothscroll.js"></script>
 	<script src="/assets/js/wow.min.js"></script>
 	<script src="/assets/js/owl.carousel.min.js"></script>
 	<script src="/assets/js/contact.js"></script>
