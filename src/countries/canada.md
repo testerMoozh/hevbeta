@@ -12,7 +12,7 @@ contactName: "​René-Pierre Allard"
 contactAffiliation: "Natural Resources Canada"
 contactEmail: "rene-pierre.allard@canada.ca"
 contactNameTwo: "​​​​​​Carol Burelle"
-contactAffiliationTwo: "Natural Resources Canada"
+contactAffiliationTwo: ""
 contactEmailTwo: "cburelle.hev-tcp-chair@outlook.com"
 publicationLink:  "/countriesChapters/canada"
 

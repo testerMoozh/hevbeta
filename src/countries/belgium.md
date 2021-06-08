@@ -12,8 +12,8 @@ contactEmail: "carlo.mol@vito.be"
 contactNameTwo: "​​​​​​"
 contactAffiliationTwo: ""
 contactEmailTwo: ""
-onGoings: [1, 23, 39, 43]
-completedTasks: [7, 10, 12, 15, 24, 28]
+onGoings: [1, 23, 32, 39, 43]
+completedTasks: [7, 10, 12, 15, 24, 28 ]
 publicationLink: "/countriesChapters/belgium"
 
 ---

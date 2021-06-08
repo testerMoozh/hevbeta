@@ -3,7 +3,7 @@ layout: "layouts/country-layout.njk"
 tags: "countries"
 name: "The Netherlands"
 flag: "https://lipis.github.io/flag-icon-css/flags/4x3/nl.svg"
-onGoings: [1, 39, 43]
+onGoings: [1, 39, 40, 43, 45]
 completedTasks: [2, 4, 5, 7, 10, 12, 15, 24, 26, 27, 28, 31, 42]
 BEV: "[72945, 61303, 25065, 8116, 3737, 2543, 2664, 2251, 786, 886, 290]"
 PHEV: "[15396, 5090, 4094, 1093, 20740, 41226, 12425, 20164, 4331, 15, 11]"
@@ -22,7 +22,7 @@ publicationLink:  "/countriesChapters/TheNetherlands"
 ## Major Development in 2020
 The Dutch Government ambition is that by 2030, only zero emission passenger cars will be sold in the Netherlands. The Formula E-Team is the Dutch public-private platform to promote e-mobility and accelerate the transition to electric vehicles. The aim is to meet the climate targets and, in addition, to take advantage of the associated economic opportunities. 
 
-Despite the Covid19 pandemic, the number of full electric passenger cars increased in 2020. A purchase subsidy was introduced in 2020 for both new and used cars1. The budget for new cars was exhausted in one week, almost 25% of new registrations were electric vehicles, with over 20% being BEVs. The pandemic did impact the sector tremendously; people worked from home and therefore charged less. Large investments were in the sector were also postponed.  
+Despite the Covid19 pandemic, the number of full electric passenger cars increased in 2020. A purchase subsidy was introduced in 2020 for both new and used cars. The budget for new cars was exhausted in one week. Almost 25% of new registrations were electric vehicles, with over 20% being BEVs. The pandemic did impact the sector tremendously; people worked from home and therefore charged less. Large investments were in the sector were also postponed.  
 
 The National Charging Infrastructure Agenda, installed as part of the [National Climate Agreement](https://www.government.nl/documents/reports/2019/06/28/climate-agreement), was fully implemented, resulting in an increase of the number of charging points installed per month.  
 
